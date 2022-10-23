@@ -1,3 +1,6 @@
+# создание json файла данных из xlsx(pandas dataframe) c использованием стандартной библиотеки json
+
+# требуемый формат json данных для Yandex API ObjectManager
 # {
 #     "type": "FeatureCollection",
 #     "features": [
@@ -20,24 +23,37 @@ import json
 import pandas as pd
 pd.set_option('display.max_columns', None)
 
+#читаем данные из xlsx в pandas DataFrame
 file_name = "~/PycharmProjects/KD_map/python/DataSets/rezh_geo.xlsx"
 df_rezh = pd.read_excel(file_name)
 
-print(df_rezh.info())
+print(df_rezh)
 
+#созадем пустой словарь
 a_dict: dict = {"type": "FeatureCollection","features":[]}
 
-a1_geometry: dict = {"type": "Point", "coordinates": [55.831903, 37.411961]}
+# добавляем две точки в словарь / позже сделаю цикл по DF и заполним полный словарь
+lat = 55.831903
+lon = 37.411961
+a1_geometry: dict = {"type": "Point", "coordinates": [lat, lon]}
 a1_properties: dict = {"balloonContentHeader": "Заголовок балуна", "balloonContentBody": "Тело балуна", "balloonContentFooter": "Подвал балуна", "clusterCaption": "Описание кластерной метки", "hintContent": "Всплывающая подсказка"}
 a1_dict: dict = {"type": "Feature","id": 0}
 a1_dict["geometry"] = a1_geometry
-a1_dict["geometry"] = a1_properties
+a1_dict["properties"] = a1_properties
 a_dict["features"].append(a1_dict)
 
-print(a_dict)
+a1_geometry: dict = {"type": "Point", "coordinates": [65.831903, 67.411961]}
+a1_properties: dict = {"balloonContentHeader": "Заголовок балуна", "balloonContentBody": "Тело балуна", "balloonContentFooter": "Подвал балуна", "clusterCaption": "Описание кластерной метки", "hintContent": "Всплывающая подсказка"}
+a1_dict: dict = {"type": "Feature","id": 1}
+a1_dict["geometry"] = a1_geometry
+a1_dict["properties"] = a1_properties
+a_dict["features"].append(a1_dict)
 
-with open ('rezh.json', 'w') as f:
-    json.dump(a_dict, f, indent=1)
+print(json.dumps(a_dict, ensure_ascii=False, indent=1))
+
+#записываем словарь в json файл применяя стандартный метод json.dump
+with open ('rezh.json', 'w', encoding='utf8') as f:
+    json.dump(a_dict, f, ensure_ascii=False, indent=1)
 
 # with open('rezh.json', 'w') as f:
 #     f.write("{\n")
