@@ -2,8 +2,8 @@ ymaps.ready(init);
 
 function init () {
     var myMap = new ymaps.Map('kd-map', {
-            center: [56.84,60.61],
-            zoom: 10
+            center: [57.371976468912315,61.395945886505494],
+            zoom: 13
         }, {
             searchControlProvider: 'yandex#search'
         }),
@@ -25,7 +25,7 @@ function init () {
     // objectManager.setFilter('properties.hintContent == "Банк ГПБ (АО)"');
 
     $.ajax({
-        url: "bk.json"
+        url: "rezh.json"
     }).done(function(data) {
         objectManager.add(data);
     });
