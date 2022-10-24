@@ -1,4 +1,4 @@
-# создание json файла данных из xlsx(pandas dataframe) c использованием стандартной библиотеки json
+# создание json файла данных из xlsx/БД (pandas dataframe) c использованием стандартной библиотеки json
 
 # требуемый формат json данных для Yandex API ObjectManager
 # {
@@ -32,22 +32,31 @@ print(df_rezh)
 #созадем пустой словарь
 a_dict: dict = {"type": "FeatureCollection","features":[]}
 
+for i, r in df_rezh.iterrows():  # r['FIAS'] df_bk.loc[i, 'LAT']
+    a1_geometry: dict = {"type": "Point", "coordinates": [r['LAT'],r['LON']]}
+    a1_properties: dict = {"balloonContentHeader": r['TYPE'], "balloonContentBody": r['NAME'],
+                           "balloonContentFooter": r['ADRESS'], "clusterCaption": "Описание кластерной метки",
+                           "hintContent": r['NAME'], "typeObject": r['TYPE']}
+    a1_dict: dict = {"type": "Feature", "id":i}
+    a1_dict["geometry"] = a1_geometry
+    a1_dict["properties"] = a1_properties
+    a_dict["features"].append(a1_dict)
 # добавляем две точки в словарь / позже сделаю цикл по DF и заполним полный словарь
-lat = 55.831903
-lon = 37.411961
-a1_geometry: dict = {"type": "Point", "coordinates": [lat, lon]}
-a1_properties: dict = {"balloonContentHeader": "Заголовок балуна", "balloonContentBody": "Тело балуна", "balloonContentFooter": "Подвал балуна", "clusterCaption": "Описание кластерной метки", "hintContent": "Всплывающая подсказка"}
-a1_dict: dict = {"type": "Feature","id": 0}
-a1_dict["geometry"] = a1_geometry
-a1_dict["properties"] = a1_properties
-a_dict["features"].append(a1_dict)
-
-a1_geometry: dict = {"type": "Point", "coordinates": [65.831903, 67.411961]}
-a1_properties: dict = {"balloonContentHeader": "Заголовок балуна", "balloonContentBody": "Тело балуна", "balloonContentFooter": "Подвал балуна", "clusterCaption": "Описание кластерной метки", "hintContent": "Всплывающая подсказка"}
-a1_dict: dict = {"type": "Feature","id": 1}
-a1_dict["geometry"] = a1_geometry
-a1_dict["properties"] = a1_properties
-a_dict["features"].append(a1_dict)
+# lat = 55.831903
+# lon = 37.411961
+# a1_geometry: dict = {"type": "Point", "coordinates": [lat, lon]}
+# a1_properties: dict = {"balloonContentHeader": "Заголовок балуна", "balloonContentBody": "Тело балуна", "balloonContentFooter": "Подвал балуна", "clusterCaption": "Описание кластерной метки", "hintContent": "Всплывающая подсказка"}
+# a1_dict: dict = {"type": "Feature","id": 0}
+# a1_dict["geometry"] = a1_geometry
+# a1_dict["properties"] = a1_properties
+# a_dict["features"].append(a1_dict)
+#
+# a1_geometry: dict = {"type": "Point", "coordinates": [65.831903, 67.411961]}
+# a1_properties: dict = {"balloonContentHeader": "Заголовок балуна", "balloonContentBody": "Тело балуна", "balloonContentFooter": "Подвал балуна", "clusterCaption": "Описание кластерной метки", "hintContent": "Всплывающая подсказка"}
+# a1_dict: dict = {"type": "Feature","id": 1}
+# a1_dict["geometry"] = a1_geometry
+# a1_dict["properties"] = a1_properties
+# a_dict["features"].append(a1_dict)
 
 print(json.dumps(a_dict, ensure_ascii=False, indent=1))
 
