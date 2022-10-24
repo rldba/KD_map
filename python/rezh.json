@@ -1,0 +1,41 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": 0,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     55.831903,
+     37.411961
+    ]
+   },
+   "properties": {
+    "balloonContentHeader": "Заголовок балуна",
+    "balloonContentBody": "Тело балуна",
+    "balloonContentFooter": "Подвал балуна",
+    "clusterCaption": "Описание кластерной метки",
+    "hintContent": "Всплывающая подсказка"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 1,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     65.831903,
+     67.411961
+    ]
+   },
+   "properties": {
+    "balloonContentHeader": "Заголовок балуна",
+    "balloonContentBody": "Тело балуна",
+    "balloonContentFooter": "Подвал балуна",
+    "clusterCaption": "Описание кластерной метки",
+    "hintContent": "Всплывающая подсказка"
+   }
+  }
+ ]
+}
