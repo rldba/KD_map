@@ -11,13 +11,17 @@
      61.393822
     ]
    },
+   "options": {
+    "preset": "islands#redIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PKO",
+    "balloonContentHeader": "Офис банка (в т.ч. передвижной пункт)",
     "balloonContentBody": "ПАО КБ \"УБРиР\"",
     "balloonContentFooter": "623750, Свердловская область, г. Реж, ул. Ленина, д. 1, помещение №37",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Офис банка (в т.ч. передвижной пункт)",
     "hintContent": "ПАО КБ \"УБРиР\"",
-    "typeObject": "PKO"
+    "typeObject": "Офис банка (в т.ч. передвижной пункт)",
+    "iconContent": "₽"
    }
   },
   {
@@ -30,13 +34,17 @@
      61.374014
     ]
    },
+   "options": {
+    "preset": "islands#redIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PKO",
+    "balloonContentHeader": "Офис банка (в т.ч. передвижной пункт)",
     "balloonContentBody": "ПАО \"СКБ-банк\"",
     "balloonContentFooter": "623750, Свердловская обл., г. Реж, ул. Ленина, д.70/3",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Офис банка (в т.ч. передвижной пункт)",
     "hintContent": "ПАО \"СКБ-банк\"",
-    "typeObject": "PKO"
+    "typeObject": "Офис банка (в т.ч. передвижной пункт)",
+    "iconContent": "₽"
    }
   },
   {
@@ -49,13 +57,17 @@
      61.374014
     ]
    },
+   "options": {
+    "preset": "islands#redIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PKO",
+    "balloonContentHeader": "Офис банка (в т.ч. передвижной пункт)",
     "balloonContentBody": "АО \"Газэнергобанк\"",
     "balloonContentFooter": "623750, Свердловская обл., г. Реж, ул. Ленина, д. 70, корп. 3",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Офис банка (в т.ч. передвижной пункт)",
     "hintContent": "АО \"Газэнергобанк\"",
-    "typeObject": "PKO"
+    "typeObject": "Офис банка (в т.ч. передвижной пункт)",
+    "iconContent": "₽"
    }
   },
   {
@@ -68,13 +80,17 @@
      61.370142
     ]
    },
+   "options": {
+    "preset": "islands#redIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PKO",
+    "balloonContentHeader": "Офис банка (в т.ч. передвижной пункт)",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "623750, г. Реж Свердловской области, улица Максима Горького, дом №19",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Офис банка (в т.ч. передвижной пункт)",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "PKO"
+    "typeObject": "Офис банка (в т.ч. передвижной пункт)",
+    "iconContent": "₽"
    }
   },
   {
@@ -87,13 +103,17 @@
      61.395178
     ]
    },
+   "options": {
+    "preset": "islands#redIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PKO",
+    "balloonContentHeader": "Офис банка (в т.ч. передвижной пункт)",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "623750, Свердловская область, г. Реж, улица Советская, дом №2, встроенное нежилое помещение №111",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Офис банка (в т.ч. передвижной пункт)",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "PKO"
+    "typeObject": "Офис банка (в т.ч. передвижной пункт)",
+    "iconContent": "₽"
    }
   },
   {
@@ -106,13 +126,17 @@
      87.215967
     ]
    },
+   "options": {
+    "preset": "islands#redIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PKO",
+    "balloonContentHeader": "Офис банка (в т.ч. передвижной пункт)",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "623750,  г. Реж Свердловской области,  улица  Максима Горького, дом №19  Помещения: №101-109.112-115",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Офис банка (в т.ч. передвижной пункт)",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "PKO"
+    "typeObject": "Офис банка (в т.ч. передвижной пункт)",
+    "iconContent": "₽"
    }
   },
   {
@@ -125,13 +149,17 @@
      61.388558
     ]
    },
+   "options": {
+    "preset": "islands#redIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PKO",
+    "balloonContentHeader": "Офис банка (в т.ч. передвижной пункт)",
     "balloonContentBody": "АО \"Россельхозбанк\"",
     "balloonContentFooter": "623750, Свердловская обл., г. Реж, ул. Энгельса, д.6",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Офис банка (в т.ч. передвижной пункт)",
     "hintContent": "АО \"Россельхозбанк\"",
-    "typeObject": "PKO"
+    "typeObject": "Офис банка (в т.ч. передвижной пункт)",
+    "iconContent": "₽"
    }
   },
   {
@@ -144,13 +172,17 @@
      61.416127
     ]
    },
+   "options": {
+    "preset": "islands#redIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PKO",
+    "balloonContentHeader": "Офис банка (в т.ч. передвижной пункт)",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "623742, Свердловская обл., Режевской р-н, с. Глинское, пер. Космонавтов, 2",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Офис банка (в т.ч. передвижной пункт)",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "PKO"
+    "typeObject": "Офис банка (в т.ч. передвижной пункт)",
+    "iconContent": "₽"
    }
   },
   {
@@ -163,13 +195,17 @@
      60.899659
     ]
    },
+   "options": {
+    "preset": "islands#redIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PKO",
+    "balloonContentHeader": "Офис банка (в т.ч. передвижной пункт)",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "623736, Свердловская область, Режевской район, с. Черемисское, ул. Молодежная, 11",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Офис банка (в т.ч. передвижной пункт)",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "PKO"
+    "typeObject": "Офис банка (в т.ч. передвижной пункт)",
+    "iconContent": "₽"
    }
   },
   {
@@ -182,13 +218,16 @@
      61.389196
     ]
    },
+   "options": {
+    "preset": "islands#redDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "UTO",
+    "balloonContentHeader": "Удаленная точка банк. обслуживания",
     "balloonContentBody": "ООО \"ХКФ Банк\"",
     "balloonContentFooter": "623750, Свердловская обл., Режевской \nр-н, г. Реж, ул. Ленина, д. 10",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Удаленная точка банк. обслуживания",
     "hintContent": "ООО \"ХКФ Банк\"",
-    "typeObject": "UTO"
+    "typeObject": "Удаленная точка банк. обслуживания"
    }
   },
   {
@@ -201,13 +240,16 @@
      61.389932
     ]
    },
+   "options": {
+    "preset": "islands#redDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "UTO",
+    "balloonContentHeader": "Удаленная точка банк. обслуживания",
     "balloonContentBody": "ООО \"ХКФ Банк\"",
     "balloonContentFooter": "623750, Свердловская обл., Режевской \nр-н, г. Реж, ул. Большевиков, д. 9",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Удаленная точка банк. обслуживания",
     "hintContent": "ООО \"ХКФ Банк\"",
-    "typeObject": "UTO"
+    "typeObject": "Удаленная точка банк. обслуживания"
    }
   },
   {
@@ -220,13 +262,16 @@
      61.383707
     ]
    },
+   "options": {
+    "preset": "islands#redDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "UTO",
+    "balloonContentHeader": "Удаленная точка банк. обслуживания",
     "balloonContentBody": "ПАО \"Совкомбанк\"",
     "balloonContentFooter": "624860, Свердловская область, г. Реж, \nул. Ленина, д. 33",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Удаленная точка банк. обслуживания",
     "hintContent": "ПАО \"Совкомбанк\"",
-    "typeObject": "UTO"
+    "typeObject": "Удаленная точка банк. обслуживания"
    }
   },
   {
@@ -239,13 +284,16 @@
      61.383707
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО \"Совкомбанк\"",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ, РЕЖЕВСКОЙ Р-Н, Г РЕЖ, УЛ ЛЕНИНА, 33",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО \"Совкомбанк\"",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -258,13 +306,16 @@
      61.382863
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ТКБ БАНК ПАО",
     "balloonContentFooter": "Свердловская обл.,Режевской р-н,г. Реж,ул. Ленина,д. 30",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ТКБ БАНК ПАО",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -277,13 +328,16 @@
      61.393822
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "Банк ВТБ (ПАО)",
     "balloonContentFooter": "Свердловская обл.,г.о.Режевской,г.Реж,ул.Ленина,д.1",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "Банк ВТБ (ПАО)",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -296,13 +350,16 @@
      61.390651
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "Банк ВТБ (ПАО)",
     "balloonContentFooter": "Свердловская обл.,г.о.Режевской,г.Реж,ул.Ленина,д.5",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "Банк ВТБ (ПАО)",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -315,13 +372,16 @@
      61.395178
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "обл Свердловская, р-н Режевской, г Реж, ул Советская, ДОМ 2,",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -334,13 +394,16 @@
      61.339528
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "обл Свердловская, р-н Режевской, г Реж, ул Калинина, ДОМ 14, к. а",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -353,13 +416,16 @@
      61.386159
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "обл Свердловская, р-н Режевской, г Реж, ул Ленина, стр. 23",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -372,13 +438,16 @@
      61.391109
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "обл Свердловская, р-н Режевской, г Реж, ул Красноармейская, стр. 16",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -391,13 +460,16 @@
      61.396229
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "обл Свердловская, р-н Режевской, г Реж, ул П.Морозова, ДОМ 14,",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -410,13 +482,16 @@
      61.370142
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "обл Свердловская, р-н Режевской, г Реж, ул М.Горького, д. 19,",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -429,13 +504,16 @@
      61.395178
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "обл Свердловская, р-н Режевской, г Реж, ул Советская, ДОМ 2,",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -448,13 +526,16 @@
      61.335396
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "обл Свердловская, г Реж, ул Строителей, ДОМ 1,",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -467,13 +548,16 @@
      61.428551
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "обл Свердловская, р-н Режевской, г Реж, ул Советская,  131,",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -486,13 +570,16 @@
      61.370142
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "обл Свердловская, р-н Режевской, г Реж, ул М.Горького, д. 19,",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -505,13 +592,16 @@
      61.388558
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "АО \"Россельхозбанк\"",
     "balloonContentFooter": "Свердловская область,Режевской,г Реж,ул Энгельса,подв.6",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "АО \"Россельхозбанк\"",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -524,13 +614,16 @@
      61.394675
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО КБ \"УБРиР\"",
     "balloonContentFooter": "Свердловская область, г.о. Режевской, г Реж, ул Чапаева, стр. 24А",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО КБ \"УБРиР\"",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -543,13 +636,16 @@
      61.393822
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО КБ \"УБРиР\"",
     "balloonContentFooter": "Свердловская обл, Реж г, Ленина ул, 1",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО КБ \"УБРиР\"",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -562,13 +658,16 @@
      61.366989
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО КБ \"УБРиР\"",
     "balloonContentFooter": "Свердловская обл, Реж г, Спортивная ул, 12",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО КБ \"УБРиР\"",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -581,13 +680,16 @@
      61.337363
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО КБ \"УБРиР\"",
     "balloonContentFooter": "Свердловская область, Режевской район, город Реж, улица Калинина, дом 19 корпус в",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО КБ \"УБРиР\"",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -600,13 +702,16 @@
      61.398879
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО КБ \"УБРиР\"",
     "balloonContentFooter": "Свердловская область, городской округ Режевской, город Реж, улица П.Морозова, дом 18 корпус 1",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО КБ \"УБРиР\"",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -619,13 +724,16 @@
      61.389878
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "АО \"Почта Банк\"",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ,Р-Н РЕЖЕВСКОЙ,Г РЕЖ,УЛ ЛЕНИНА,СТР.7",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "АО \"Почта Банк\"",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -638,13 +746,16 @@
      61.374014
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО \"СКБ-банк\"",
     "balloonContentFooter": "Свердловская обл,Режевской р-н,г Реж,ул Ленина,70,3",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО \"СКБ-банк\"",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -657,13 +768,16 @@
      61.396229
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО \"СКБ-банк\"",
     "balloonContentFooter": "Свердловская обл,Режевской р-н,г Реж,ул П.Морозова,14",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО \"СКБ-банк\"",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -676,13 +790,16 @@
      61.423547
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "обл Свердловская, р-н Режевской, г Реж, пер Советский, ДОМ 44,",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -695,13 +812,16 @@
      61.378775
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО \"МОСКОВСКИЙ КРЕДИТНЫЙ БАНК\"",
     "balloonContentFooter": "Свердловская обл.,г.Реж,ул.Фрунзе,д.17",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО \"МОСКОВСКИЙ КРЕДИТНЫЙ БАНК\"",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -714,13 +834,16 @@
      61.396229
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "АО \"Тинькофф Банк\"",
     "balloonContentFooter": "обл.Свердловская,р-н Режевской,г.Реж,ул.П.Морозова,д.14",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "АО \"Тинькофф Банк\"",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -733,13 +856,16 @@
      61.386159
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО КБ \"УБРиР\"",
     "balloonContentFooter": "Свердловская обл, Реж г, Ленина ул, 23",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО КБ \"УБРиР\"",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -752,13 +878,16 @@
      61.428551
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО КБ \"УБРиР\"",
     "balloonContentFooter": "Свердловская обл, Реж г, Советская ул, 131",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО КБ \"УБРиР\"",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -771,13 +900,16 @@
      61.393822
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО \"СКБ-банк\"",
     "balloonContentFooter": "Свердловская обл,Режевской р-н,г Реж,ул Ленина,1",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО \"СКБ-банк\"",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -790,13 +922,16 @@
      61.394675
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО \"СКБ-банк\"",
     "balloonContentFooter": "Свердловская обл,Режевской р-н,г Реж,ул Чапаева,24,а",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО \"СКБ-банк\"",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -809,13 +944,16 @@
      61.374014
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО \"СКБ-банк\"",
     "balloonContentFooter": "Свердловская обл,Режевской р-н,г Реж,ул Ленина,70,3",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО \"СКБ-банк\"",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -828,13 +966,16 @@
      61.337363
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО \"СКБ-банк\"",
     "balloonContentFooter": "Свердловская обл,Режевской р-н,г Реж,ул Калинина,19,В",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО \"СКБ-банк\"",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -847,13 +988,16 @@
      61.396229
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО \"СКБ-банк\"",
     "balloonContentFooter": "Свердловская обл,Режевской р-н,г Реж,ул П.Морозова,14,А",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО \"СКБ-банк\"",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -866,13 +1010,16 @@
      61.366729
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО \"СКБ-банк\"",
     "balloonContentFooter": "Свердловская обл,Режевской р-н,г Реж,пер Калинина,14",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО \"СКБ-банк\"",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -885,13 +1032,16 @@
      61.396661
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО \"СКБ-банк\"",
     "balloonContentFooter": "Свердловская обл,Режевской р-н,г Реж,ул П.Морозова,60",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО \"СКБ-банк\"",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -904,13 +1054,16 @@
      61.384318
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО \"СКБ-банк\"",
     "balloonContentFooter": "Свердловская обл,Режевской р-н,г Реж,ул Красноармейская,21",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО \"СКБ-банк\"",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -923,13 +1076,16 @@
      61.395178
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "обл Свердловская, р-н Режевской, г Реж, ул Советская, ДОМ 2,",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -942,13 +1098,16 @@
      61.388558
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "АО \"Россельхозбанк\"",
     "balloonContentFooter": "Свердловская область,Режевской,г Реж,ул Энгельса,подв.6",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "АО \"Россельхозбанк\"",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -961,13 +1120,16 @@
      61.382279
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "Банк ГПБ (АО)",
     "balloonContentFooter": "Свердловская обл.,г.о.. Режевской,г. Реж,ул. Ленина,д. 35",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "Банк ГПБ (АО)",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -980,13 +1142,16 @@
      61.171112
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "обл Свердловская, р-н Режевской, с Липовское, ул Ленина, ДОМ 36,",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -999,13 +1164,16 @@
      61.172037
     ]
    },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK",
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
     "balloonContentBody": "ПАО \"СКБ-банк\"",
     "balloonContentFooter": "Свердловская обл,Режевской р-н,с Липовское",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
     "hintContent": "ПАО \"СКБ-банк\"",
-    "typeObject": "BK"
+    "typeObject": "Банкомат (с использованием банк. карт)"
    }
   },
   {
@@ -1018,13 +1186,16 @@
      61.40011
     ]
    },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK_",
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
     "balloonContentBody": "КИВИ Банк (АО)",
     "balloonContentFooter": "Свердловская обл, Режевской р-н, г Реж, ул Заводская, д 3",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
     "hintContent": "КИВИ Банк (АО)",
-    "typeObject": "BK_"
+    "typeObject": "Банкомат (без использования банк. карт)"
    }
   },
   {
@@ -1037,13 +1208,16 @@
      61.385252
     ]
    },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK_",
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
     "balloonContentBody": "ООО НКО \"Расчетные Решения\"",
     "balloonContentFooter": "Свердловская обл, г Реж, ул Ленина, д 26",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
     "hintContent": "ООО НКО \"Расчетные Решения\"",
-    "typeObject": "BK_"
+    "typeObject": "Банкомат (без использования банк. карт)"
    }
   },
   {
@@ -1056,13 +1230,16 @@
      61.349158
     ]
    },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK_",
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
     "balloonContentBody": "ПАО \"НБД-Банк\"",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ.,РЕЖЕВСКОЙ р-н,РЕЖ г.,КАЛИНИНА ул.,47 ДОМ",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
     "hintContent": "ПАО \"НБД-Банк\"",
-    "typeObject": "BK_"
+    "typeObject": "Банкомат (без использования банк. карт)"
    }
   },
   {
@@ -1075,13 +1252,16 @@
      61.394334
     ]
    },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK_",
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
     "balloonContentBody": "ПАО \"НБД-Банк\"",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ.,РЕЖЕВСКОЙ р-н,РЕЖ г.,СОВЕТСКАЯ ул.,2А ДОМ",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
     "hintContent": "ПАО \"НБД-Банк\"",
-    "typeObject": "BK_"
+    "typeObject": "Банкомат (без использования банк. карт)"
    }
   },
   {
@@ -1094,13 +1274,16 @@
      61.374014
     ]
    },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK_",
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
     "balloonContentBody": "ПАО \"СКБ-банк\"",
     "balloonContentFooter": "Свердловская обл,Режевской р-н,г Реж,ул Ленина,70,3",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
     "hintContent": "ПАО \"СКБ-банк\"",
-    "typeObject": "BK_"
+    "typeObject": "Банкомат (без использования банк. карт)"
    }
   },
   {
@@ -1113,13 +1296,16 @@
      61.387498
     ]
    },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK_",
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
     "balloonContentBody": "КИВИ Банк (АО)",
     "balloonContentFooter": "область Свердловская, городской округ Режевской, город Реж, улица Ленина, стр 17",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
     "hintContent": "КИВИ Банк (АО)",
-    "typeObject": "BK_"
+    "typeObject": "Банкомат (без использования банк. карт)"
    }
   },
   {
@@ -1132,13 +1318,16 @@
      61.346894
     ]
    },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK_",
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
     "balloonContentBody": "КИВИ Банк (АО)",
     "balloonContentFooter": "область Свердловская, городской округ Режевской, город Реж, улица Калинина, д 30 к а",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
     "hintContent": "КИВИ Банк (АО)",
-    "typeObject": "BK_"
+    "typeObject": "Банкомат (без использования банк. карт)"
    }
   },
   {
@@ -1151,13 +1340,16 @@
      61.385252
     ]
    },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK_",
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
     "balloonContentBody": "КИВИ Банк (АО)",
     "balloonContentFooter": "область Свердловская, городской округ Режевской, город Реж, улица Ленина, д 26",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
     "hintContent": "КИВИ Банк (АО)",
-    "typeObject": "BK_"
+    "typeObject": "Банкомат (без использования банк. карт)"
    }
   },
   {
@@ -1170,13 +1362,16 @@
      61.385252
     ]
    },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK_",
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
     "balloonContentBody": "КИВИ Банк (АО)",
     "balloonContentFooter": "область Свердловская, городской округ Режевской, город Реж, улица Ленина, д 26",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
     "hintContent": "КИВИ Банк (АО)",
-    "typeObject": "BK_"
+    "typeObject": "Банкомат (без использования банк. карт)"
    }
   },
   {
@@ -1189,13 +1384,16 @@
      61.366989
     ]
    },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK_",
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
     "balloonContentBody": "КИВИ Банк (АО)",
     "balloonContentFooter": "область Свердловская, городской округ Режевской, город Реж, улица Спортивная, д 12",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
     "hintContent": "КИВИ Банк (АО)",
-    "typeObject": "BK_"
+    "typeObject": "Банкомат (без использования банк. карт)"
    }
   },
   {
@@ -1208,13 +1406,16 @@
      61.339528
     ]
    },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK_",
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
     "balloonContentBody": "КИВИ Банк (АО)",
     "balloonContentFooter": "область Свердловская, городской округ Режевской, город Реж, улица Калинина, д 14 к а",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
     "hintContent": "КИВИ Банк (АО)",
-    "typeObject": "BK_"
+    "typeObject": "Банкомат (без использования банк. карт)"
    }
   },
   {
@@ -1227,13 +1428,16 @@
      61.389959
     ]
    },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK_",
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
     "balloonContentBody": "КИВИ Банк (АО)",
     "balloonContentFooter": "область Свердловская, городской округ Режевской, город Реж, улица Ленина, стр 8",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
     "hintContent": "КИВИ Банк (АО)",
-    "typeObject": "BK_"
+    "typeObject": "Банкомат (без использования банк. карт)"
    }
   },
   {
@@ -1246,13 +1450,16 @@
      61.385818
     ]
    },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK_",
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
     "balloonContentBody": "КИВИ Банк (АО)",
     "balloonContentFooter": "область Свердловская, городской округ Режевской, город Реж, улица Машиностроителей, д 1",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
     "hintContent": "КИВИ Банк (АО)",
-    "typeObject": "BK_"
+    "typeObject": "Банкомат (без использования банк. карт)"
    }
   },
   {
@@ -1265,13 +1472,16 @@
      61.404153
     ]
    },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK_",
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
     "balloonContentBody": "КИВИ Банк (АО)",
     "balloonContentFooter": "область Свердловская, городской округ Режевской, город Реж, переулок П.Морозова, д 18",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
     "hintContent": "КИВИ Банк (АО)",
-    "typeObject": "BK_"
+    "typeObject": "Банкомат (без использования банк. карт)"
    }
   },
   {
@@ -1284,13 +1494,16 @@
      61.386159
     ]
    },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK_",
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
     "balloonContentBody": "КИВИ Банк (АО)",
     "balloonContentFooter": "область Свердловская, городской округ Режевской, город Реж, улица Ленина, стр 23",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
     "hintContent": "КИВИ Банк (АО)",
-    "typeObject": "BK_"
+    "typeObject": "Банкомат (без использования банк. карт)"
    }
   },
   {
@@ -1303,13 +1516,16 @@
      61.380302
     ]
    },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK_",
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
     "balloonContentBody": "КИВИ Банк (АО)",
     "balloonContentFooter": "область Свердловская, городской округ Режевской, город Реж, улица Красноармейская, д 48",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
     "hintContent": "КИВИ Банк (АО)",
-    "typeObject": "BK_"
+    "typeObject": "Банкомат (без использования банк. карт)"
    }
   },
   {
@@ -1322,13 +1538,16 @@
      61.374993
     ]
    },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK_",
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
     "balloonContentBody": "КИВИ Банк (АО)",
     "balloonContentFooter": "область Свердловская, городской округ Режевской, город Реж, улица Трудовая, стр 40",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
     "hintContent": "КИВИ Банк (АО)",
-    "typeObject": "BK_"
+    "typeObject": "Банкомат (без использования банк. карт)"
    }
   },
   {
@@ -1341,13 +1560,16 @@
      61.428551
     ]
    },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK_",
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
     "balloonContentBody": "КИВИ Банк (АО)",
     "balloonContentFooter": "область Свердловская, городской округ Режевской, город Реж, улица Советская, д 131",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
     "hintContent": "КИВИ Банк (АО)",
-    "typeObject": "BK_"
+    "typeObject": "Банкомат (без использования банк. карт)"
    }
   },
   {
@@ -1360,13 +1582,16 @@
      61.369684
     ]
    },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK_",
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
     "balloonContentBody": "КИВИ Банк (АО)",
     "balloonContentFooter": "область Свердловская, городской округ Режевской, город Реж, улица Спортивная, д 2",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
     "hintContent": "КИВИ Банк (АО)",
-    "typeObject": "BK_"
+    "typeObject": "Банкомат (без использования банк. карт)"
    }
   },
   {
@@ -1379,13 +1604,16 @@
      61.374544
     ]
    },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK_",
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
     "balloonContentBody": "КИВИ Банк (АО)",
     "balloonContentFooter": "область Свердловская, городской округ Режевской, город Реж, улица Ленина, д 70 к 2",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
     "hintContent": "КИВИ Банк (АО)",
-    "typeObject": "BK_"
+    "typeObject": "Банкомат (без использования банк. карт)"
    }
   },
   {
@@ -1398,13 +1626,16 @@
      61.390094
     ]
    },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK_",
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
     "balloonContentBody": "КИВИ Банк (АО)",
     "balloonContentFooter": "область Свердловская, городской округ Режевской, город Реж, улица Космонавтов, д 9",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
     "hintContent": "КИВИ Банк (АО)",
-    "typeObject": "BK_"
+    "typeObject": "Банкомат (без использования банк. карт)"
    }
   },
   {
@@ -1417,13 +1648,16 @@
      61.421248
     ]
    },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK_",
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
     "balloonContentBody": "КИВИ Банк (АО)",
     "balloonContentFooter": "область Свердловская, городской округ Режевской, город Реж, переулок А.Матросова, д 89",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
     "hintContent": "КИВИ Банк (АО)",
-    "typeObject": "BK_"
+    "typeObject": "Банкомат (без использования банк. карт)"
    }
   },
   {
@@ -1436,13 +1670,16 @@
      61.393597
     ]
    },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK_",
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
     "balloonContentBody": "КИВИ Банк (АО)",
     "balloonContentFooter": "область Свердловская, городской округ Режевской, город Реж, улица Чапаева, д 19",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
     "hintContent": "КИВИ Банк (АО)",
-    "typeObject": "BK_"
+    "typeObject": "Банкомат (без использования банк. карт)"
    }
   },
   {
@@ -1455,13 +1692,16 @@
      61.212677
     ]
    },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "BK_",
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
     "balloonContentBody": "КИВИ Банк (АО)",
     "balloonContentFooter": "Свердловская обл, Режевской р-н, поселок Озерный, ул Октябрьская, д 1",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
     "hintContent": "КИВИ Банк (АО)",
-    "typeObject": "BK_"
+    "typeObject": "Банкомат (без использования банк. карт)"
    }
   },
   {
@@ -1474,13 +1714,16 @@
      61.395035
     ]
    },
+   "options": {
+    "preset": "islands#bluePostCircleIcon"
+   },
    "properties": {
-    "balloonContentHeader": "RUSSIA_POST",
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
     "balloonContentBody": "АО \"Почта Банк\"",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ,Р-Н РЕЖЕВСКОЙ,Г РЕЖ,УЛ МЕТАЛЛУРГОВ,СТР.1",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
     "hintContent": "АО \"Почта Банк\"",
-    "typeObject": "RUSSIA_POST"
+    "typeObject": "Банковские услуги в отделениях Почты России"
    }
   },
   {
@@ -1493,13 +1736,16 @@
      61.34507
     ]
    },
+   "options": {
+    "preset": "islands#bluePostCircleIcon"
+   },
    "properties": {
-    "balloonContentHeader": "RUSSIA_POST",
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
     "balloonContentBody": "АО \"Почта Банк\"",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ,Р-Н РЕЖЕВСКОЙ,Г РЕЖ,ПЕР ЧЕРНЯХОВСКОГО,Д.2",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
     "hintContent": "АО \"Почта Банк\"",
-    "typeObject": "RUSSIA_POST"
+    "typeObject": "Банковские услуги в отделениях Почты России"
    }
   },
   {
@@ -1512,13 +1758,16 @@
      61.427841
     ]
    },
+   "options": {
+    "preset": "islands#bluePostCircleIcon"
+   },
    "properties": {
-    "balloonContentHeader": "RUSSIA_POST",
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
     "balloonContentBody": "АО \"Почта Банк\"",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ,Р-Н РЕЖЕВСКОЙ,Г РЕЖ,УЛ КРАСНОФЛОТЦЕВ,Д.7",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
     "hintContent": "АО \"Почта Банк\"",
-    "typeObject": "RUSSIA_POST"
+    "typeObject": "Банковские услуги в отделениях Почты России"
    }
   },
   {
@@ -1531,13 +1780,16 @@
      61.389878
     ]
    },
+   "options": {
+    "preset": "islands#bluePostCircleIcon"
+   },
    "properties": {
-    "balloonContentHeader": "RUSSIA_POST",
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
     "balloonContentBody": "АО \"Почта Банк\"",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ,Р-Н РЕЖЕВСКОЙ,Г РЕЖ,УЛ ЛЕНИНА,СТР.7",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
     "hintContent": "АО \"Почта Банк\"",
-    "typeObject": "RUSSIA_POST"
+    "typeObject": "Банковские услуги в отделениях Почты России"
    }
   },
   {
@@ -1550,13 +1802,16 @@
      61.389878
     ]
    },
+   "options": {
+    "preset": "islands#bluePostCircleIcon"
+   },
    "properties": {
-    "balloonContentHeader": "RUSSIA_POST",
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
     "balloonContentBody": "АО \"Почта Банк\"",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ,Р-Н РЕЖЕВСКОЙ,Г РЕЖ,УЛ ЛЕНИНА,СТР.7",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
     "hintContent": "АО \"Почта Банк\"",
-    "typeObject": "RUSSIA_POST"
+    "typeObject": "Банковские услуги в отделениях Почты России"
    }
   },
   {
@@ -1569,13 +1824,16 @@
      61.389878
     ]
    },
+   "options": {
+    "preset": "islands#bluePostCircleIcon"
+   },
    "properties": {
-    "balloonContentHeader": "RUSSIA_POST",
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
     "balloonContentBody": "АО \"Почта Банк\"",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ,Р-Н РЕЖЕВСКОЙ,Г РЕЖ,УЛ ЛЕНИНА,СТР.7",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
     "hintContent": "АО \"Почта Банк\"",
-    "typeObject": "RUSSIA_POST"
+    "typeObject": "Банковские услуги в отделениях Почты России"
    }
   },
   {
@@ -1588,13 +1846,16 @@
      61.34507
     ]
    },
+   "options": {
+    "preset": "islands#bluePostCircleIcon"
+   },
    "properties": {
-    "balloonContentHeader": "RUSSIA_POST",
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
     "balloonContentBody": "АО \"Почта Банк\"",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ,Р-Н РЕЖЕВСКОЙ,Г РЕЖ,ПЕР ЧЕРНЯХОВСКОГО,Д.2",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
     "hintContent": "АО \"Почта Банк\"",
-    "typeObject": "RUSSIA_POST"
+    "typeObject": "Банковские услуги в отделениях Почты России"
    }
   },
   {
@@ -1607,13 +1868,16 @@
      61.395035
     ]
    },
+   "options": {
+    "preset": "islands#bluePostCircleIcon"
+   },
    "properties": {
-    "balloonContentHeader": "RUSSIA_POST",
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
     "balloonContentBody": "АО \"Почта Банк\"",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ,Р-Н РЕЖЕВСКОЙ,Г РЕЖ,УЛ МЕТАЛЛУРГОВ,СТР.1",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
     "hintContent": "АО \"Почта Банк\"",
-    "typeObject": "RUSSIA_POST"
+    "typeObject": "Банковские услуги в отделениях Почты России"
    }
   },
   {
@@ -1626,13 +1890,16 @@
      61.21415
     ]
    },
+   "options": {
+    "preset": "islands#bluePostCircleIcon"
+   },
    "properties": {
-    "balloonContentHeader": "RUSSIA_POST",
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
     "balloonContentBody": "АО \"Почта Банк\"",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ,Р-Н РЕЖЕВСКОЙ,П ОЗЁРНЫЙ,УЛ КЛУБНАЯ,СТР.1",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
     "hintContent": "АО \"Почта Банк\"",
-    "typeObject": "RUSSIA_POST"
+    "typeObject": "Банковские услуги в отделениях Почты России"
    }
   },
   {
@@ -1645,13 +1912,16 @@
      61.501081
     ]
    },
+   "options": {
+    "preset": "islands#bluePostCircleIcon"
+   },
    "properties": {
-    "balloonContentHeader": "RUSSIA_POST",
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
     "balloonContentBody": "АО \"Почта Банк\"",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ,Р-Н РЕЖЕВСКОЙ,С АРАМАШКА,УЛ ЛЕНИНА,Д.23",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
     "hintContent": "АО \"Почта Банк\"",
-    "typeObject": "RUSSIA_POST"
+    "typeObject": "Банковские услуги в отделениях Почты России"
    }
   },
   {
@@ -1664,13 +1934,16 @@
      61.41372
     ]
    },
+   "options": {
+    "preset": "islands#bluePostCircleIcon"
+   },
    "properties": {
-    "balloonContentHeader": "RUSSIA_POST",
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
     "balloonContentBody": "АО \"Почта Банк\"",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ,Р-Н РЕЖЕВСКОЙ,С ГЛИНСКОЕ,УЛ КОСМОНАВТОВ,Д.2",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
     "hintContent": "АО \"Почта Банк\"",
-    "typeObject": "RUSSIA_POST"
+    "typeObject": "Банковские услуги в отделениях Почты России"
    }
   },
   {
@@ -1683,13 +1956,16 @@
      61.35797
     ]
    },
+   "options": {
+    "preset": "islands#bluePostCircleIcon"
+   },
    "properties": {
-    "balloonContentHeader": "RUSSIA_POST",
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
     "balloonContentBody": "АО \"Почта Банк\"",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ,Р-Н РЕЖЕВСКОЙ,С КЛЕВАКИНСКОЕ,УЛ 1 МАЯ,СТР.46",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
     "hintContent": "АО \"Почта Банк\"",
-    "typeObject": "RUSSIA_POST"
+    "typeObject": "Банковские услуги в отделениях Почты России"
    }
   },
   {
@@ -1702,13 +1978,16 @@
      61.380803
     ]
    },
+   "options": {
+    "preset": "islands#bluePostCircleIcon"
+   },
    "properties": {
-    "balloonContentHeader": "RUSSIA_POST",
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
     "balloonContentBody": "АО \"Почта Банк\"",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ,Р-Н РЕЖЕВСКОЙ,С ЛЕНЁВСКОЕ,УЛ СОВЕТСКАЯ,СТР.4",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
     "hintContent": "АО \"Почта Банк\"",
-    "typeObject": "RUSSIA_POST"
+    "typeObject": "Банковские услуги в отделениях Почты России"
    }
   },
   {
@@ -1721,13 +2000,16 @@
      61.175522
     ]
    },
+   "options": {
+    "preset": "islands#bluePostCircleIcon"
+   },
    "properties": {
-    "balloonContentHeader": "RUSSIA_POST",
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
     "balloonContentBody": "АО \"Почта Банк\"",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ,Р-Н РЕЖЕВСКОЙ,С ЛИПОВСКОЕ,УЛ СОВХОЗНАЯ,СТР.37",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
     "hintContent": "АО \"Почта Банк\"",
-    "typeObject": "RUSSIA_POST"
+    "typeObject": "Банковские услуги в отделениях Почты России"
    }
   },
   {
@@ -1740,13 +2022,16 @@
      61.317429
     ]
    },
+   "options": {
+    "preset": "islands#bluePostCircleIcon"
+   },
    "properties": {
-    "balloonContentHeader": "RUSSIA_POST",
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
     "balloonContentBody": "АО \"Почта Банк\"",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ,Р-Н РЕЖЕВСКОЙ,С ОСТАНИНО,УЛ МИРА,СТР.88",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
     "hintContent": "АО \"Почта Банк\"",
-    "typeObject": "RUSSIA_POST"
+    "typeObject": "Банковские услуги в отделениях Почты России"
    }
   },
   {
@@ -1759,13 +2044,16 @@
      60.894152
     ]
    },
+   "options": {
+    "preset": "islands#bluePostCircleIcon"
+   },
    "properties": {
-    "balloonContentHeader": "RUSSIA_POST",
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
     "balloonContentBody": "АО \"Почта Банк\"",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ,Р-Н РЕЖЕВСКОЙ,С ЧЕРЕМИССКОЕ,УЛ К.МАРКСА,Д.6А",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
     "hintContent": "АО \"Почта Банк\"",
-    "typeObject": "RUSSIA_POST"
+    "typeObject": "Банковские услуги в отделениях Почты России"
    }
   },
   {
@@ -1778,13 +2066,16 @@
      61.390651
     ]
    },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "CASH_OUT",
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "Свердловская область, Режевской Район, Реж Город, ул Ленина, Дом 5",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка выдачи наличных в магазине",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "CASH_OUT"
+    "typeObject": "Точка выдачи наличных в магазине"
    }
   },
   {
@@ -1797,13 +2088,16 @@
      61.390651
     ]
    },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "CASH_OUT",
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "Свердловская область, Режевской Район, Реж Город, ул Ленина, Дом 5",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка выдачи наличных в магазине",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "CASH_OUT"
+    "typeObject": "Точка выдачи наличных в магазине"
    }
   },
   {
@@ -1816,13 +2110,16 @@
      61.390651
     ]
    },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "CASH_OUT",
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "Свердловская область, Режевской Район, Реж Город, ул Ленина, Дом 5",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка выдачи наличных в магазине",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "CASH_OUT"
+    "typeObject": "Точка выдачи наличных в магазине"
    }
   },
   {
@@ -1835,13 +2132,16 @@
      61.390651
     ]
    },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "CASH_OUT",
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "Свердловская область, Режевской Район, Реж Город, ул Ленина, Дом 5",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка выдачи наличных в магазине",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "CASH_OUT"
+    "typeObject": "Точка выдачи наличных в магазине"
    }
   },
   {
@@ -1854,13 +2154,16 @@
      61.390651
     ]
    },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "CASH_OUT",
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "Свердловская область, Режевской Район, Реж Город, ул Ленина, Дом 5",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка выдачи наличных в магазине",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "CASH_OUT"
+    "typeObject": "Точка выдачи наличных в магазине"
    }
   },
   {
@@ -1873,13 +2176,16 @@
      61.398628
     ]
    },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "CASH_OUT",
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "Свердловская область, Режевской Район, Реж Город, ул П.Морозова, Дом 18",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка выдачи наличных в магазине",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "CASH_OUT"
+    "typeObject": "Точка выдачи наличных в магазине"
    }
   },
   {
@@ -1892,13 +2198,16 @@
      61.335396
     ]
    },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "CASH_OUT",
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "Свердловская область, Режевской Район, Реж Город, ул Строителей, Дом 1",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка выдачи наличных в магазине",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "CASH_OUT"
+    "typeObject": "Точка выдачи наличных в магазине"
    }
   },
   {
@@ -1911,13 +2220,16 @@
      61.335396
     ]
    },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "CASH_OUT",
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "Свердловская область, Режевской Район, Реж Город, ул Строителей, Дом 1",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка выдачи наличных в магазине",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "CASH_OUT"
+    "typeObject": "Точка выдачи наличных в магазине"
    }
   },
   {
@@ -1930,13 +2242,16 @@
      61.335396
     ]
    },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "CASH_OUT",
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "Свердловская область, Режевской Район, Реж Город, ул Строителей, Дом 1",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка выдачи наличных в магазине",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "CASH_OUT"
+    "typeObject": "Точка выдачи наличных в магазине"
    }
   },
   {
@@ -1949,13 +2264,16 @@
      61.398628
     ]
    },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "CASH_OUT",
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "Свердловская область, Режевской Район, Реж Город, ул П.Морозова, Дом 18",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка выдачи наличных в магазине",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "CASH_OUT"
+    "typeObject": "Точка выдачи наличных в магазине"
    }
   },
   {
@@ -1968,13 +2286,16 @@
      61.398628
     ]
    },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "CASH_OUT",
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "Свердловская область, Режевской Район, Реж Город, ул П.Морозова, Дом 18",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка выдачи наличных в магазине",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "CASH_OUT"
+    "typeObject": "Точка выдачи наличных в магазине"
    }
   },
   {
@@ -1987,13 +2308,16 @@
      61.398628
     ]
    },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "CASH_OUT",
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "Свердловская область, Режевской Район, Реж Город, ул П.Морозова, Дом 18",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка выдачи наличных в магазине",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "CASH_OUT"
+    "typeObject": "Точка выдачи наличных в магазине"
    }
   },
   {
@@ -2006,13 +2330,16 @@
      61.398628
     ]
    },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "CASH_OUT",
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "Свердловская область, Режевской Район, Реж Город, ул П.Морозова, Дом 18",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка выдачи наличных в магазине",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "CASH_OUT"
+    "typeObject": "Точка выдачи наличных в магазине"
    }
   },
   {
@@ -2025,13 +2352,16 @@
      61.396238
     ]
    },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "CASH_OUT",
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
     "balloonContentBody": "ПАО Банк \"ФК Открытие\"",
     "balloonContentFooter": "Свердловская обл.,р-н Режевской,г. Реж,ул. Почтовая,д. 2",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка выдачи наличных в магазине",
     "hintContent": "ПАО Банк \"ФК Открытие\"",
-    "typeObject": "CASH_OUT"
+    "typeObject": "Точка выдачи наличных в магазине"
    }
   },
   {
@@ -2044,13 +2374,16 @@
      61.217096
     ]
    },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "CASH_OUT",
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
     "balloonContentBody": "ПАО Сбербанк",
     "balloonContentFooter": "Свердловская область, Режевской Район, Озёрный Поселок, ул Клубная, Дом 2",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка выдачи наличных в магазине",
     "hintContent": "ПАО Сбербанк",
-    "typeObject": "CASH_OUT"
+    "typeObject": "Точка выдачи наличных в магазине"
    }
   },
   {
@@ -2063,13 +2396,16 @@
      61.380302
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
+    "balloonContentHeader": "Точка оплаты наличными",
     "balloonContentBody": "QIWI Bank (joint-stock company) QIWI Bank (JSC)",
     "balloonContentFooter": "Свердловская обл, Режевской р-н, г Реж, ул Ленина, д 32",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка оплаты наличными",
     "hintContent": "QIWI Bank (joint-stock company) QIWI Bank (JSC)",
-    "typeObject": "PAY_POINT"
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2082,13 +2418,16 @@
      61.385252
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
+    "balloonContentHeader": "Точка оплаты наличными",
     "balloonContentBody": "QIWI Bank (joint-stock company) QIWI Bank (JSC)",
     "balloonContentFooter": "Свердловская обл, Режевской р-н, г Реж, ул Ленина, д 26",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка оплаты наличными",
     "hintContent": "QIWI Bank (joint-stock company) QIWI Bank (JSC)",
-    "typeObject": "PAY_POINT"
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2101,13 +2440,16 @@
      61.23889
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
+    "balloonContentHeader": "Точка оплаты наличными",
     "balloonContentBody": "\"YooMoney\", NBCO LLC",
     "balloonContentFooter": "Российская Федерация Свердловская обл Режевской р-н Реж г Ленина ул 26 корп.2",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка оплаты наличными",
     "hintContent": "\"YooMoney\", NBCO LLC",
-    "typeObject": "PAY_POINT"
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2120,13 +2462,16 @@
      61.385252
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
+    "balloonContentHeader": "Точка оплаты наличными",
     "balloonContentBody": "Non-bank settlement credit institution Money.Mail.Ru (LLC); Money.Mail.Ru",
     "balloonContentFooter": "Свердловская обл, Режевской р-н, г Реж, ул Ленина, д 26",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка оплаты наличными",
     "hintContent": "Non-bank settlement credit institution Money.Mail.Ru (LLC); Money.Mail.Ru",
-    "typeObject": "PAY_POINT"
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2139,13 +2484,16 @@
      61.385252
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
+    "balloonContentHeader": "Точка оплаты наличными",
     "balloonContentBody": "Nonbank credit organization \"MOBI. Money\" Limited Liability Company NCO \"MOBI. Money\" LLC",
     "balloonContentFooter": "623750, РОССИЯ, Свердловская обл, Режевской р-н, г. Реж, ул. Ленина, д. 26",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка оплаты наличными",
     "hintContent": "Nonbank credit organization \"MOBI. Money\" Limited Liability Company NCO \"MOBI. Money\" LLC",
-    "typeObject": "PAY_POINT"
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2158,13 +2506,16 @@
      61.385252
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
-    "balloonContentBody": "NaN",
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "ООО НКО \"Расчетные Решения»",
     "balloonContentFooter": "Свердловская обл, г Реж, ул Ленина, д 26",
-    "clusterCaption": "Описание кластерной метки",
-    "hintContent": "NaN",
-    "typeObject": "PAY_POINT"
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "ООО НКО \"Расчетные Решения»",
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2177,13 +2528,16 @@
      61.385306
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
+    "balloonContentHeader": "Точка оплаты наличными",
     "balloonContentBody": "QIWI Bank (joint-stock company) QIWI Bank (JSC)",
     "balloonContentFooter": "область Свердловская, городской округ Режевской, город Реж, улица Машиностроителей, д 3",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка оплаты наличными",
     "hintContent": "QIWI Bank (joint-stock company) QIWI Bank (JSC)",
-    "typeObject": "PAY_POINT"
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2196,13 +2550,16 @@
      61.386941
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
+    "balloonContentHeader": "Точка оплаты наличными",
     "balloonContentBody": "Public Joint-Stock Company \"MTS Bank\"; PJSC \"MTS Bank\"",
     "balloonContentFooter": "Свердловская область, городской округ Режевской, город Реж, улица Ленина, строение 19",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка оплаты наличными",
     "hintContent": "Public Joint-Stock Company \"MTS Bank\"; PJSC \"MTS Bank\"",
-    "typeObject": "PAY_POINT"
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2215,13 +2572,16 @@
      61.390651
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
+    "balloonContentHeader": "Точка оплаты наличными",
     "balloonContentBody": "Public Joint-Stock Company \"MTS Bank\"; PJSC \"MTS Bank\"",
     "balloonContentFooter": "Свердловская область, городской округ Режевской, город Реж, улица Ленина, строение 5",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка оплаты наличными",
     "hintContent": "Public Joint-Stock Company \"MTS Bank\"; PJSC \"MTS Bank\"",
-    "typeObject": "PAY_POINT"
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2234,13 +2594,16 @@
      61.389878
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
+    "balloonContentHeader": "Точка оплаты наличными",
     "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ., РЕЖЕВСКОЙ Р-Н, Г. РЕЖ, УЛ. ЛЕНИНА, СТР. 7",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка оплаты наличными",
     "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
-    "typeObject": "PAY_POINT"
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2253,13 +2616,16 @@
      61.427841
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
+    "balloonContentHeader": "Точка оплаты наличными",
     "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ., РЕЖЕВСКОЙ Р-Н, Г. РЕЖ, УЛ. КРАСНОФЛОТЦЕВ, Д. 7",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка оплаты наличными",
     "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
-    "typeObject": "PAY_POINT"
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2272,13 +2638,16 @@
      61.34507
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
+    "balloonContentHeader": "Точка оплаты наличными",
     "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ., РЕЖЕВСКОЙ Р-Н, Г. РЕЖ, ПЕР. ЧЕРНЯХОВСКОГО, Д. 2",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка оплаты наличными",
     "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
-    "typeObject": "PAY_POINT"
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2291,13 +2660,16 @@
      61.395035
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
+    "balloonContentHeader": "Точка оплаты наличными",
     "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ., РЕЖЕВСКОЙ Р-Н, Г. РЕЖ, УЛ. МЕТАЛЛУРГОВ, Д. 1",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка оплаты наличными",
     "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
-    "typeObject": "PAY_POINT"
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2310,13 +2682,16 @@
      61.385252
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
+    "balloonContentHeader": "Точка оплаты наличными",
     "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ., РЕЖЕВСКОЙ Р-Н, Г. РЕЖ, УЛ. ЛЕНИНА, Д. 26",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка оплаты наличными",
     "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
-    "typeObject": "PAY_POINT"
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2329,13 +2704,16 @@
      61.390651
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
+    "balloonContentHeader": "Точка оплаты наличными",
     "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ., РЕЖЕВСКОЙ Р-Н, Г. РЕЖ, УЛ. ЛЕНИНА, Д. 5",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка оплаты наличными",
     "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
-    "typeObject": "PAY_POINT"
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2348,13 +2726,16 @@
      61.386941
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
+    "balloonContentHeader": "Точка оплаты наличными",
     "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ., РЕЖЕВСКОЙ Р-Н, Г. РЕЖ, УЛ. ЛЕНИНА, СТР. 19",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка оплаты наличными",
     "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
-    "typeObject": "PAY_POINT"
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2367,13 +2748,16 @@
      61.386159
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
+    "balloonContentHeader": "Точка оплаты наличными",
     "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ., РЕЖЕВСКОЙ Р-Н, Г. РЕЖ, УЛ. ЛЕНИНА, СТР. 23",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка оплаты наличными",
     "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
-    "typeObject": "PAY_POINT"
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2386,13 +2770,16 @@
      61.386159
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
+    "balloonContentHeader": "Точка оплаты наличными",
     "balloonContentBody": "UNISTREAM COMMERCIAL BANK (JSC), UNISTREAM  BANK",
     "balloonContentFooter": "Свердловская обл, р-н Режевской, г Реж, ул Ленина, стр 23",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка оплаты наличными",
     "hintContent": "UNISTREAM COMMERCIAL BANK (JSC), UNISTREAM  BANK",
-    "typeObject": "PAY_POINT"
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2405,13 +2792,16 @@
      61.385252
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
+    "balloonContentHeader": "Точка оплаты наличными",
     "balloonContentBody": "Limited liability company settlement non-bank credit organization \"Wallet One\" , Wallet One",
     "balloonContentFooter": "Уральский Федеральный округ, Свердловская область, Режевской р-н, город Реж,  улЛенина, д26",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка оплаты наличными",
     "hintContent": "Limited liability company settlement non-bank credit organization \"Wallet One\" , Wallet One",
-    "typeObject": "PAY_POINT"
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2424,13 +2814,16 @@
      61.21415
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
+    "balloonContentHeader": "Точка оплаты наличными",
     "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ., РЕЖЕВСКОЙ Р-Н, П. ОЗЁРНЫЙ, УЛ. КЛУБНАЯ, СТР. 1",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка оплаты наличными",
     "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
-    "typeObject": "PAY_POINT"
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2443,13 +2836,16 @@
      61.501081
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
+    "balloonContentHeader": "Точка оплаты наличными",
     "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ., РЕЖЕВСКОЙ Р-Н, С. АРАМАШКА, УЛ. ЛЕНИНА, Д. 23",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка оплаты наличными",
     "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
-    "typeObject": "PAY_POINT"
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2462,13 +2858,16 @@
      61.41372
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
+    "balloonContentHeader": "Точка оплаты наличными",
     "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ., РЕЖЕВСКОЙ Р-Н, С. ГЛИНСКОЕ, УЛ. КОСМОНАВТОВ, Д. 2",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка оплаты наличными",
     "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
-    "typeObject": "PAY_POINT"
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2481,13 +2880,16 @@
      61.35797
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
+    "balloonContentHeader": "Точка оплаты наличными",
     "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ., РЕЖЕВСКОЙ Р-Н, С. КЛЕВАКИНСКОЕ, УЛ. 1 МАЯ, СТР. 46",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка оплаты наличными",
     "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
-    "typeObject": "PAY_POINT"
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2500,13 +2902,16 @@
      61.381003
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
+    "balloonContentHeader": "Точка оплаты наличными",
     "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ., РЕЖЕВСКОЙ Р-Н, С. ЛЕНЁВСКОЕ, УЛ. СОВЕТСКАЯ, СТР. 4",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка оплаты наличными",
     "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
-    "typeObject": "PAY_POINT"
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2519,13 +2924,16 @@
      61.175522
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
+    "balloonContentHeader": "Точка оплаты наличными",
     "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ., РЕЖЕВСКОЙ Р-Н, С. ЛИПОВСКОЕ, УЛ. СОВХОЗНАЯ, СТР. 37",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка оплаты наличными",
     "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
-    "typeObject": "PAY_POINT"
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2538,13 +2946,16 @@
      61.317429
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
+    "balloonContentHeader": "Точка оплаты наличными",
     "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ., РЕЖЕВСКОЙ Р-Н, С. ОСТАНИНО, УЛ. МИРА, СТР. 88",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка оплаты наличными",
     "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
-    "typeObject": "PAY_POINT"
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2557,13 +2968,16 @@
      60.894152
     ]
    },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
    "properties": {
-    "balloonContentHeader": "PAY_POINT",
+    "balloonContentHeader": "Точка оплаты наличными",
     "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
     "balloonContentFooter": "СВЕРДЛОВСКАЯ ОБЛ., РЕЖЕВСКОЙ Р-Н, С. ЧЕРЕМИССКОЕ, УЛ. К.МАРКСА, Д. 6А",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Точка оплаты наличными",
     "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
-    "typeObject": "PAY_POINT"
+    "typeObject": "Точка оплаты наличными"
    }
   },
   {
@@ -2576,13 +2990,17 @@
      61.386941
     ]
    },
+   "options": {
+    "preset": "islands#violetStretchyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "MFO",
+    "balloonContentHeader": "Микрофинансовая организация",
     "balloonContentBody": "ООО МКК «Арифметика»",
     "balloonContentFooter": "Свердловская область, городской округ Режевской, город Реж, улица Ленина, строение 19",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Микрофинансовая организация",
     "hintContent": "ООО МКК «Арифметика»",
-    "typeObject": "MFO"
+    "typeObject": "Микрофинансовая организация",
+    "iconContent": "МФО"
    }
   },
   {
@@ -2595,13 +3013,17 @@
      61.386941
     ]
    },
+   "options": {
+    "preset": "islands#violetStretchyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "MFO",
+    "balloonContentHeader": "Микрофинансовая организация",
     "balloonContentBody": "ООО МКК «Фастмани.ру»",
     "balloonContentFooter": "623750, Свердловская обл, г.о. городской округ Режевской, г Реж, ул Ленина, стр. 19",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Микрофинансовая организация",
     "hintContent": "ООО МКК «Фастмани.ру»",
-    "typeObject": "MFO"
+    "typeObject": "Микрофинансовая организация",
+    "iconContent": "МФО"
    }
   },
   {
@@ -2614,13 +3036,17 @@
      61.387498
     ]
    },
+   "options": {
+    "preset": "islands#violetStretchyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "MFO",
+    "balloonContentHeader": "Микрофинансовая организация",
     "balloonContentBody": "ООО МКК «СВОБОДАЗАЙМ»",
     "balloonContentFooter": "Свердловская область, Режевской район, город Реж, улица Ленина, строение 17",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Микрофинансовая организация",
     "hintContent": "ООО МКК «СВОБОДАЗАЙМ»",
-    "typeObject": "MFO"
+    "typeObject": "Микрофинансовая организация",
+    "iconContent": "МФО"
    }
   },
   {
@@ -2633,13 +3059,17 @@
      61.387498
     ]
    },
+   "options": {
+    "preset": "islands#violetStretchyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "MFO",
+    "balloonContentHeader": "Микрофинансовая организация",
     "balloonContentBody": "ООО МКК «СВОБОДАЗАЙМ»",
     "balloonContentFooter": "Свердловская область, Режевской район, город Реж, улица Ленина, строение 17",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Микрофинансовая организация",
     "hintContent": "ООО МКК «СВОБОДАЗАЙМ»",
-    "typeObject": "MFO"
+    "typeObject": "Микрофинансовая организация",
+    "iconContent": "МФО"
    }
   },
   {
@@ -2652,13 +3082,17 @@
      61.384012
     ]
    },
+   "options": {
+    "preset": "islands#violetStretchyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "MFO",
+    "balloonContentHeader": "Микрофинансовая организация",
     "balloonContentBody": "ООО МКК «КВ Деньги Людям»",
     "balloonContentFooter": "623750,Свердловская обл,Режевской р-н,Реж г,Ленина ул,д. 28,",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Микрофинансовая организация",
     "hintContent": "ООО МКК «КВ Деньги Людям»",
-    "typeObject": "MFO"
+    "typeObject": "Микрофинансовая организация",
+    "iconContent": "МФО"
    }
   },
   {
@@ -2671,13 +3105,17 @@
      61.390651
     ]
    },
+   "options": {
+    "preset": "islands#violetStretchyIcon"
+   },
    "properties": {
-    "balloonContentHeader": "MFO",
+    "balloonContentHeader": "Микрофинансовая организация",
     "balloonContentBody": "МФК «ЦФП» (АО)",
     "balloonContentFooter": "Свердловская обл, р-н Режевской, г Реж, ул Ленина, д. 5",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Микрофинансовая организация",
     "hintContent": "МФК «ЦФП» (АО)",
-    "typeObject": "MFO"
+    "typeObject": "Микрофинансовая организация",
+    "iconContent": "МФО"
    }
   },
   {
@@ -2690,13 +3128,16 @@
      61.382279
     ]
    },
+   "options": {
+    "preset": "islands#blueAttentionIcon"
+   },
    "properties": {
-    "balloonContentHeader": "INS",
+    "balloonContentHeader": "Страховая организация",
     "balloonContentBody": "Акционерное общество \"Страховое общество газовой промышленности\"",
     "balloonContentFooter": "623750, Свердловская область, г.Реж, ул. Ленина, д.35",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Страховая организация",
     "hintContent": "Акционерное общество \"Страховое общество газовой промышленности\"",
-    "typeObject": "INS"
+    "typeObject": "Страховая организация"
    }
   },
   {
@@ -2709,13 +3150,16 @@
      61.382279
     ]
    },
+   "options": {
+    "preset": "islands#blueAttentionIcon"
+   },
    "properties": {
-    "balloonContentHeader": "INS",
+    "balloonContentHeader": "Страховая организация",
     "balloonContentBody": "Акционерное общество \"Страховая компания \"СОГАЗ-Мед\"",
     "balloonContentFooter": "Свердловская область, Режевской район, Реж г, Ленина ул, д. 35",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Страховая организация",
     "hintContent": "Акционерное общество \"Страховая компания \"СОГАЗ-Мед\"",
-    "typeObject": "INS"
+    "typeObject": "Страховая организация"
    }
   },
   {
@@ -2728,13 +3172,16 @@
      61.393921
     ]
    },
+   "options": {
+    "preset": "islands#blueAttentionIcon"
+   },
    "properties": {
-    "balloonContentHeader": "INS",
+    "balloonContentHeader": "Страховая организация",
     "balloonContentBody": "Общество с ограниченной ответственностью \"Капитал Лайф Страхование Жизни\"",
     "balloonContentFooter": "623752, Свердловская область, г. Реж, ул. Металлургов, д.3",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Страховая организация",
     "hintContent": "Общество с ограниченной ответственностью \"Капитал Лайф Страхование Жизни\"",
-    "typeObject": "INS"
+    "typeObject": "Страховая организация"
    }
   },
   {
@@ -2747,13 +3194,16 @@
      61.388576
     ]
    },
+   "options": {
+    "preset": "islands#blueAttentionIcon"
+   },
    "properties": {
-    "balloonContentHeader": "INS",
+    "balloonContentHeader": "Страховая организация",
     "balloonContentBody": "СТРАХОВАЯ МЕДИЦИНСКАЯ КОМПАНИЯ \"АСТРАМЕД-МС\" (АКЦИОНЕРНОЕ ОБЩЕСТВО)",
     "balloonContentFooter": "623750, Свердловская область, г.Реж, ул.Ленина, д.14",
-    "clusterCaption": "Описание кластерной метки",
+    "clusterCaption": "Страховая организация",
     "hintContent": "СТРАХОВАЯ МЕДИЦИНСКАЯ КОМПАНИЯ \"АСТРАМЕД-МС\" (АКЦИОНЕРНОЕ ОБЩЕСТВО)",
-    "typeObject": "INS"
+    "typeObject": "Страховая организация"
    }
   }
  ]
