@@ -13,6 +13,45 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+    <div class="sidenav">
+        <a href="#" class="logo">
+            <img class = 'logo-cbr' src="img/10andmore.png" alt="logo">
+        </a>
+        <div class="sidenav__header">
+            <span class="name_list">Фильтры</span>
+            <nav class="menu_header">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a class="menu__link" href="">Офисы</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="">Банкоматы</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- <form id="search_address" name="search_form">
+                <div class="text-field">
+                    <div class="text-field__icon text-field__icon_search">
+                        <input class="text-field__input" type="text" name="search" id="search" placeholder="Введите адрес">
+                        <button class="btn_search" type="submit">Поиск</button>
+                    </div>
+                </div>
+            </form> -->
+        </div>
+        <div class="sidenav__body">
+            <span class="name_list">Федеральные округа</span>
+            <nav class="menu_body">
+                <ul class="menu__body_list">
+                    <!-- Здесь рендеринг массива regions -->
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div id="map" class="map">
+        <script src="https://api-maps.yandex.ru/2.1/?apikey=23433d4b-ba8e-4b36-8d78-40afc5eb0acf&lang=ru_RU"
+        type="text/javascript">
+        </script>
+        <script src="./js/main.js" defer></script>
+    </div>    
 </body>
 </html>
