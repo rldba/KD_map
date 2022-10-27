@@ -25,7 +25,7 @@ function init () {
     // objectManager.setFilter('properties.hintContent == "Банк ГПБ (АО)"');
 
     $.ajax({
-        url: "bk.json"
+        url: "../bk.json"
     }).done(function(data) {
         objectManager.add(data);
     });
