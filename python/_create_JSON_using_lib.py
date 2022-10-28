@@ -63,7 +63,7 @@ for i, r in df_rezh.iterrows():  # r['FIAS'] df_bk.loc[i, 'LAT']
     a1_dict["geometry"] = a1_geometry
 
     if r['TYPE'] == "MFO":
-        a1_options: dict = {"preset": "islands#violetStretchyIcon"}
+        a1_options: dict = {"preset": "islands#violetStretchyIcon", "hideIconOnBalloonOpen": False}
         a1_properties["iconContent"] = "МФО"
         a1_dict["options"] = a1_options
     elif r['TYPE'] == "PKO":
@@ -80,7 +80,7 @@ for i, r in df_rezh.iterrows():  # r['FIAS'] df_bk.loc[i, 'LAT']
         a1_options: dict = {"preset": "islands#blueMoneyIcon"}
         a1_dict["options"] = a1_options
     elif r['TYPE'] == "RUSSIA_POST":
-        a1_options: dict = {"preset": "islands#bluePostCircleIcon"}
+        a1_options: dict = {"preset": "islands#bluePostCircleIcon", "hideIconOnBalloonOpen": False}
         a1_dict["options"] = a1_options
     elif r['TYPE'] == "CASH_OUT":
         a1_options: dict = {"preset": "islands#orangeCircleDotIcon"}
