@@ -17,6 +17,13 @@ df_rezh['ADRESS_NORM'] = " "
 
 client = Client(yandex_geo_api_key)
 
+# result = client.coordinates("623750,  г. Реж Свердловской области,  улица  Максима Горького, дом №19")
+# print (result)
+# lon, lat = result
+# adress = client.address(Decimal(lon),Decimal(lat))
+# if len(adress) > 0:
+#     print (adress)
+
 for i, r in df_rezh.iterrows():
     result = client.coordinates(str(r['ADRESS']))
     if len(result) > 0:
