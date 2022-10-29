@@ -12,13 +12,18 @@ function init () {
             clusterize: true,
             // ObjectManager принимает те же опции, что и кластеризатор.
             gridSize: 100,
-            clusterDisableClickZoom: false
+            clusterDisableClickZoom: true,
+            clusterHideIconOnBalloonOpen: false,
+            // Макет метки кластера pieChart.
+            clusterIconLayout: "default#pieChart"
         });
 
     // Чтобы задать опции одиночным объектам и кластерам,
     // обратимся к дочерним коллекциям ObjectManager.
-    objectManager.objects.options.set('preset', 'islands#greenDotIcon');
-    objectManager.clusters.options.set('preset', 'islands#greenClusterIcons');
+
+    //objectManager.objects.options.set('preset', 'islands#greenDotIcon');
+    //objectManager.clusters.options.set('preset', 'islands#greenClusterIcons');
+
     myMap.controls.remove('trafficControl'); // удаляем контроль трафика
     myMap.controls.remove('rulerControl'); // удаляем контрол правил
     myMap.controls.remove('searchControl'); // удаляем поисковый контрол
