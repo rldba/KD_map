@@ -93,7 +93,7 @@ a {
   background: #afefff;
 }
 
-.activeRegions {
+.active {
   /* background-color:#00BBEE; */
   background-color:#afefff;
 }
@@ -148,10 +148,6 @@ a {
 
 .menu__link:hover {
     background-color:#afefff;
-}
-
-.active {
-  background: 1px solid #00BBEE;
 }
 
 /* [class*="ymaps-2-1-79-float-button ymaps-2-1-79-_hidden-text"] {

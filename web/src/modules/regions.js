@@ -131,14 +131,9 @@ const regions = () => {
             'Ставропольский край',
             'Чеченская Республика'
         ]
-    },
-    ]
+    }]
 
-    const menu = document.querySelector('.menu__body_list')
-    const menuSwitchType = document.querySelector('.menu__list')
-
-    let isActiveRegions
-    let isActiveType
+    const menuItems = document.querySelectorAll('.menu__link')
 
     regions.forEach((item) => {
         const menu = document.querySelector('.menu__body_list')
@@ -166,7 +161,7 @@ const regions = () => {
             link.textContent = `${item.oblast[i]}`
             list.append(link)
         }
-    })
+    }) // рендеринг содержимого массива regions
 
     const dropdown = document.querySelectorAll('.menu_regions_title')
     const dropdownLink = document.querySelectorAll('.dropdown-container')
@@ -174,27 +169,31 @@ const regions = () => {
     dropdown.forEach((item, id) => {
         item.addEventListener('click', (e) => {
             e.preventDefault()
+            console.log('item');
 
-            isActiveRegions = !isActiveRegions
-            isActiveRegions ? item.className += ' activeRegions' : item.className = 'menu_regions_title'
-
-            console.log(isActiveRegions);
+            if (item.className === 'menu_regions_title') {
+                item.classList.add('active')
+            }
+            else {
+                item.classList.remove('active')
+            }
             
             dropdownLink[id].classList.toggle('open')
         })
-        
-    })
+    }) // активные кнопки в меню выбора регионов
 
-    const menuItems = document.querySelectorAll('.menu__item')
-
-    menuItems.forEach((item, id) => {
+    menuItems.forEach((item) => {
         item.addEventListener('click', (e) => {
             e.preventDefault()
 
-            isActiveType = !isActiveType
-            isActiveType ? item.className += ' active' : item.className = 'menu__item'
+            if (item.className === 'menu__link') {
+                item.classList.add('active')
+            }
+            else {
+                item.classList.remove('active')
+            }
         })
-    })
+    }) // активные кнопки в фильтре
 }
 
 export default regions
