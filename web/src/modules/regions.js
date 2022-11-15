@@ -133,6 +133,10 @@ const regions = () => {
         ]
     }]
 
+    const map = document.querySelector('.map')
+
+    console.log(map);
+
     const menuItems = document.querySelectorAll('.menu__link')
 
     regions.forEach((item) => {
