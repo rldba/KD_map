@@ -1,0 +1,3164 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": 0,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.370559,
+     61.380841
+    ]
+   },
+   "options": {
+    "preset": "islands#redIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Офис банка (в т.ч. передвижной пункт)",
+    "balloonContentBody": "ПАО КБ \"УБРиР\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 37",
+    "clusterCaption": "Офис банка (в т.ч. передвижной пункт)",
+    "hintContent": "ПАО КБ \"УБРиР\"",
+    "typeObject": "Офис банка (в т.ч. передвижной пункт)",
+    "iconContent": "₽"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 1,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372132,
+     61.374014
+    ]
+   },
+   "options": {
+    "preset": "islands#redIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Офис банка (в т.ч. передвижной пункт)",
+    "balloonContentBody": "ПАО \"СКБ-банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 70к3",
+    "clusterCaption": "Офис банка (в т.ч. передвижной пункт)",
+    "hintContent": "ПАО \"СКБ-банк\"",
+    "typeObject": "Офис банка (в т.ч. передвижной пункт)",
+    "iconContent": "₽"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 2,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372132,
+     61.374014
+    ]
+   },
+   "options": {
+    "preset": "islands#redIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Офис банка (в т.ч. передвижной пункт)",
+    "balloonContentBody": "АО \"Газэнергобанк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 70к3",
+    "clusterCaption": "Офис банка (в т.ч. передвижной пункт)",
+    "hintContent": "АО \"Газэнергобанк\"",
+    "typeObject": "Офис банка (в т.ч. передвижной пункт)",
+    "iconContent": "₽"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 3,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372355,
+     61.370142
+    ]
+   },
+   "options": {
+    "preset": "islands#redIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Офис банка (в т.ч. передвижной пункт)",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Максима Горького, 19",
+    "clusterCaption": "Офис банка (в т.ч. передвижной пункт)",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Офис банка (в т.ч. передвижной пункт)",
+    "iconContent": "₽"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 4,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.36688,
+     61.421688
+    ]
+   },
+   "options": {
+    "preset": "islands#redIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Офис банка (в т.ч. передвижной пункт)",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, Советская улица, 111",
+    "clusterCaption": "Офис банка (в т.ч. передвижной пункт)",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Офис банка (в т.ч. передвижной пункт)",
+    "iconContent": "₽"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 5,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372355,
+     61.370142
+    ]
+   },
+   "options": {
+    "preset": "islands#redIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Офис банка (в т.ч. передвижной пункт)",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Максима Горького, 19",
+    "clusterCaption": "Офис банка (в т.ч. передвижной пункт)",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Офис банка (в т.ч. передвижной пункт)",
+    "iconContent": "₽"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 6,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.371981,
+     61.388558
+    ]
+   },
+   "options": {
+    "preset": "islands#redIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Офис банка (в т.ч. передвижной пункт)",
+    "balloonContentBody": "АО \"Россельхозбанк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Энгельса, 6",
+    "clusterCaption": "Офис банка (в т.ч. передвижной пункт)",
+    "hintContent": "АО \"Россельхозбанк\"",
+    "typeObject": "Офис банка (в т.ч. передвижной пункт)",
+    "iconContent": "₽"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 7,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.47883,
+     61.416127
+    ]
+   },
+   "options": {
+    "preset": "islands#redIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Офис банка (в т.ч. передвижной пункт)",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Режевской городской округ, село Глинское, переулок Космонавтов, 2",
+    "clusterCaption": "Офис банка (в т.ч. передвижной пункт)",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Офис банка (в т.ч. передвижной пункт)",
+    "iconContent": "₽"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 8,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.441605,
+     60.90194
+    ]
+   },
+   "options": {
+    "preset": "islands#redIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Офис банка (в т.ч. передвижной пункт)",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Режевской городской округ, село Черемисское, Молодёжная улица, 13Ж/2",
+    "clusterCaption": "Офис банка (в т.ч. передвижной пункт)",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Офис банка (в т.ч. передвижной пункт)",
+    "iconContent": "₽"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 9,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.373141,
+     61.389196
+    ]
+   },
+   "options": {
+    "preset": "islands#redDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Удаленная точка банк. обслуживания",
+    "balloonContentBody": "ООО \"ХКФ Банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 10",
+    "clusterCaption": "Удаленная точка банк. обслуживания",
+    "hintContent": "ООО \"ХКФ Банк\"",
+    "typeObject": "Удаленная точка банк. обслуживания"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 10,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.373554,
+     61.389932
+    ]
+   },
+   "options": {
+    "preset": "islands#redDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Удаленная точка банк. обслуживания",
+    "balloonContentBody": "ООО \"ХКФ Банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Большевиков, 9",
+    "clusterCaption": "Удаленная точка банк. обслуживания",
+    "hintContent": "ООО \"ХКФ Банк\"",
+    "typeObject": "Удаленная точка банк. обслуживания"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 11,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.371292,
+     61.383707
+    ]
+   },
+   "options": {
+    "preset": "islands#redDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Удаленная точка банк. обслуживания",
+    "balloonContentBody": "ПАО \"Совкомбанк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 33",
+    "clusterCaption": "Удаленная точка банк. обслуживания",
+    "hintContent": "ПАО \"Совкомбанк\"",
+    "typeObject": "Удаленная точка банк. обслуживания"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 12,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.371292,
+     61.383707
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО \"Совкомбанк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 33",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО \"Совкомбанк\"",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 13,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.371714,
+     61.382863
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ТКБ БАНК ПАО",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 30",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ТКБ БАНК ПАО",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 14,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.373792,
+     61.393822
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "Банк ВТБ (ПАО)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 1",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "Банк ВТБ (ПАО)",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 15,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372792,
+     61.390651
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "Банк ВТБ (ПАО)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 5",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "Банк ВТБ (ПАО)",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 16,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.373326,
+     61.395178
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, Советская улица, 2",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 17,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.342546,
+     61.339528
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Калинина, 14А",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 18,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.371753,
+     61.386159
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 23",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 19,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.374859,
+     61.391109
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, Красноармейская улица, 16",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 20,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.362813,
+     61.396229
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Павлика Морозова, 14",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 21,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372355,
+     61.370142
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Максима Горького, 19",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 22,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.373326,
+     61.395178
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, Советская улица, 2",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 23,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.342749,
+     61.335396
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Строителей, 1",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 24,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.365745,
+     61.428551
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, Советская улица, 131",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 25,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372355,
+     61.370142
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Максима Горького, 19",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 26,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.371981,
+     61.388558
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "АО \"Россельхозбанк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Энгельса, 6",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "АО \"Россельхозбанк\"",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 27,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.359988,
+     61.394675
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО КБ \"УБРиР\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Чапаева, 24А",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО КБ \"УБРиР\"",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 28,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.373792,
+     61.393822
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО КБ \"УБРиР\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 1",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО КБ \"УБРиР\"",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 29,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.371797,
+     61.366989
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО КБ \"УБРиР\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, Спортивная улица, 12",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО КБ \"УБРиР\"",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 30,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.343973,
+     61.337363
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО КБ \"УБРиР\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Калинина, 19В",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО КБ \"УБРиР\"",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 31,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.361221,
+     61.398879
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО КБ \"УБРиР\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Павлика Морозова, 18к1",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО КБ \"УБРиР\"",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 32,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372802,
+     61.389878
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "АО \"Почта Банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 7",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "АО \"Почта Банк\"",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 33,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372132,
+     61.374014
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО \"СКБ-банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 70к3",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО \"СКБ-банк\"",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 34,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.362813,
+     61.396229
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО \"СКБ-банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Павлика Морозова, 14",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО \"СКБ-банк\"",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 35,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.369662,
+     61.423547
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, Советский переулок, 44",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 36,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372214,
+     61.378775
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО \"МОСКОВСКИЙ КРЕДИТНЫЙ БАНК\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Фрунзе, 17",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО \"МОСКОВСКИЙ КРЕДИТНЫЙ БАНК\"",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 37,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.362813,
+     61.396229
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "АО \"Тинькофф Банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Павлика Морозова, 14",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "АО \"Тинькофф Банк\"",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 38,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.371753,
+     61.386159
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО КБ \"УБРиР\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 23",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО КБ \"УБРиР\"",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 39,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.365745,
+     61.428551
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО КБ \"УБРиР\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, Советская улица, 131",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО КБ \"УБРиР\"",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 40,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.373792,
+     61.393822
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО \"СКБ-банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 1",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО \"СКБ-банк\"",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 41,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.359988,
+     61.394675
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО \"СКБ-банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Чапаева, 24А",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО \"СКБ-банк\"",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 42,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372132,
+     61.374014
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО \"СКБ-банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 70к3",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО \"СКБ-банк\"",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 43,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.343973,
+     61.337363
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО \"СКБ-банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Калинина, 19В",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО \"СКБ-банк\"",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 44,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.362813,
+     61.396229
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО \"СКБ-банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Павлика Морозова, 14",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО \"СКБ-банк\"",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 45,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.350092,
+     61.366729
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО \"СКБ-банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, переулок Калинина, 14",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО \"СКБ-банк\"",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 46,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.352078,
+     61.396661
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО \"СКБ-банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Павлика Морозова, 60",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО \"СКБ-банк\"",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 47,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372869,
+     61.384318
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО \"СКБ-банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, Красноармейская улица, 21",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО \"СКБ-банк\"",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 48,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.373326,
+     61.395178
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, Советская улица, 2",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 49,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.371981,
+     61.388558
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "АО \"Россельхозбанк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Энгельса, 6",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "АО \"Россельхозбанк\"",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 50,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.370865,
+     61.382279
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "Банк ГПБ (АО)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 35",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "Банк ГПБ (АО)",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 51,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.451456,
+     61.171112
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Режевской городской округ, село Липовское, улица Ленина",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 52,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.452168,
+     61.172037
+    ]
+   },
+   "options": {
+    "preset": "islands#greenMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (с использованием банк. карт)",
+    "balloonContentBody": "ПАО \"СКБ-банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Режевской городской округ, село Липовское, улица Ленина",
+    "clusterCaption": "Банкомат (с использованием банк. карт)",
+    "hintContent": "ПАО \"СКБ-банк\"",
+    "typeObject": "Банкомат (с использованием банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 53,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.359822,
+     61.40011
+    ]
+   },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
+    "balloonContentBody": "КИВИ Банк (АО)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, Заводская улица, 3",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
+    "hintContent": "КИВИ Банк (АО)",
+    "typeObject": "Банкомат (без использования банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 54,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372122,
+     61.385252
+    ]
+   },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
+    "balloonContentBody": "ООО НКО \"Расчетные Решения\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 26",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
+    "hintContent": "ООО НКО \"Расчетные Решения\"",
+    "typeObject": "Банкомат (без использования банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 55,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.34595,
+     61.349158
+    ]
+   },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
+    "balloonContentBody": "ПАО \"НБД-Банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Калинина, 47",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
+    "hintContent": "ПАО \"НБД-Банк\"",
+    "typeObject": "Банкомат (без использования банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 56,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.373859,
+     61.394334
+    ]
+   },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
+    "balloonContentBody": "ПАО \"НБД-Банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, Советская улица, 2А",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
+    "hintContent": "ПАО \"НБД-Банк\"",
+    "typeObject": "Банкомат (без использования банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 57,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372132,
+     61.374014
+    ]
+   },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
+    "balloonContentBody": "ПАО \"СКБ-банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 70к3",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
+    "hintContent": "ПАО \"СКБ-банк\"",
+    "typeObject": "Банкомат (без использования банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 58,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372239,
+     61.387498
+    ]
+   },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
+    "balloonContentBody": "КИВИ Банк (АО)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 17",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
+    "hintContent": "КИВИ Банк (АО)",
+    "typeObject": "Банкомат (без использования банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 59,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.343959,
+     61.346894
+    ]
+   },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
+    "balloonContentBody": "КИВИ Банк (АО)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Калинина, 30А",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
+    "hintContent": "КИВИ Банк (АО)",
+    "typeObject": "Банкомат (без использования банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 60,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372122,
+     61.385252
+    ]
+   },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
+    "balloonContentBody": "КИВИ Банк (АО)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 26",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
+    "hintContent": "КИВИ Банк (АО)",
+    "typeObject": "Банкомат (без использования банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 61,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372122,
+     61.385252
+    ]
+   },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
+    "balloonContentBody": "КИВИ Банк (АО)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 26",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
+    "hintContent": "КИВИ Банк (АО)",
+    "typeObject": "Банкомат (без использования банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 62,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.371797,
+     61.366989
+    ]
+   },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
+    "balloonContentBody": "КИВИ Банк (АО)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, Спортивная улица, 12",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
+    "hintContent": "КИВИ Банк (АО)",
+    "typeObject": "Банкомат (без использования банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 63,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.342546,
+     61.339528
+    ]
+   },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
+    "balloonContentBody": "КИВИ Банк (АО)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Калинина, 14А",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
+    "hintContent": "КИВИ Банк (АО)",
+    "typeObject": "Банкомат (без использования банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 64,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.373321,
+     61.389959
+    ]
+   },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
+    "balloonContentBody": "КИВИ Банк (АО)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 8",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
+    "hintContent": "КИВИ Банк (АО)",
+    "typeObject": "Банкомат (без использования банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 65,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.379129,
+     61.385818
+    ]
+   },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
+    "balloonContentBody": "КИВИ Банк (АО)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Машиностроителей, 1",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
+    "hintContent": "КИВИ Банк (АО)",
+    "typeObject": "Банкомат (без использования банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 66,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.357944,
+     61.404153
+    ]
+   },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
+    "balloonContentBody": "КИВИ Банк (АО)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, переулок Павлика Морозова",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
+    "hintContent": "КИВИ Банк (АО)",
+    "typeObject": "Банкомат (без использования банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 67,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.371753,
+     61.386159
+    ]
+   },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
+    "balloonContentBody": "КИВИ Банк (АО)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 23",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
+    "hintContent": "КИВИ Банк (АО)",
+    "typeObject": "Банкомат (без использования банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 68,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372418,
+     61.380302
+    ]
+   },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
+    "balloonContentBody": "КИВИ Банк (АО)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, Красноармейская улица, 48",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
+    "hintContent": "КИВИ Банк (АО)",
+    "typeObject": "Банкомат (без использования банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 69,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372457,
+     61.374993
+    ]
+   },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
+    "balloonContentBody": "КИВИ Банк (АО)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, Трудовая улица, 40",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
+    "hintContent": "КИВИ Банк (АО)",
+    "typeObject": "Банкомат (без использования банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 70,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.365745,
+     61.428551
+    ]
+   },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
+    "balloonContentBody": "КИВИ Банк (АО)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, Советская улица, 131",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
+    "hintContent": "КИВИ Банк (АО)",
+    "typeObject": "Банкомат (без использования банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 71,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.368652,
+     61.369684
+    ]
+   },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
+    "balloonContentBody": "КИВИ Банк (АО)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, Спортивная улица, 2",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
+    "hintContent": "КИВИ Банк (АО)",
+    "typeObject": "Банкомат (без использования банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 72,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.371229,
+     61.374544
+    ]
+   },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
+    "balloonContentBody": "КИВИ Банк (АО)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 70/2",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
+    "hintContent": "КИВИ Банк (АО)",
+    "typeObject": "Банкомат (без использования банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 73,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.35957,
+     61.390094
+    ]
+   },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
+    "balloonContentBody": "КИВИ Банк (АО)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Космонавтов, 9",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
+    "hintContent": "КИВИ Банк (АО)",
+    "typeObject": "Банкомат (без использования банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 74,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.363235,
+     61.421248
+    ]
+   },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
+    "balloonContentBody": "КИВИ Банк (АО)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, переулок Александра Матросова",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
+    "hintContent": "КИВИ Банк (АО)",
+    "typeObject": "Банкомат (без использования банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 75,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.361274,
+     61.393597
+    ]
+   },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
+    "balloonContentBody": "КИВИ Банк (АО)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Чапаева, 19",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
+    "hintContent": "КИВИ Банк (АО)",
+    "typeObject": "Банкомат (без использования банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 76,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.30151,
+     61.212677
+    ]
+   },
+   "options": {
+    "preset": "islands#blueMoneyIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Банкомат (без использования банк. карт)",
+    "balloonContentBody": "КИВИ Банк (АО)",
+    "balloonContentFooter": "Россия, Свердловская область, Режевской городской округ, посёлок Озёрный, Октябрьская улица, 8",
+    "clusterCaption": "Банкомат (без использования банк. карт)",
+    "hintContent": "КИВИ Банк (АО)",
+    "typeObject": "Банкомат (без использования банк. карт)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 77,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.362478,
+     61.395035
+    ]
+   },
+   "options": {
+    "preset": "islands#bluePostCircleIcon",
+    "hideIconOnBalloonOpen": false
+   },
+   "properties": {
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
+    "balloonContentBody": "АО \"Почта Банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Металлургов, 1",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
+    "hintContent": "АО \"Почта Банк\"",
+    "typeObject": "Банковские услуги в отделениях Почты России"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 78,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.343624,
+     61.34507
+    ]
+   },
+   "options": {
+    "preset": "islands#bluePostCircleIcon",
+    "hideIconOnBalloonOpen": false
+   },
+   "properties": {
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
+    "balloonContentBody": "АО \"Почта Банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, переулок Черняховского, 2",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
+    "hintContent": "АО \"Почта Банк\"",
+    "typeObject": "Банковские услуги в отделениях Почты России"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 79,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.370928,
+     61.427841
+    ]
+   },
+   "options": {
+    "preset": "islands#bluePostCircleIcon",
+    "hideIconOnBalloonOpen": false
+   },
+   "properties": {
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
+    "balloonContentBody": "АО \"Почта Банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Краснофлотцев, 7",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
+    "hintContent": "АО \"Почта Банк\"",
+    "typeObject": "Банковские услуги в отделениях Почты России"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 80,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372802,
+     61.389878
+    ]
+   },
+   "options": {
+    "preset": "islands#bluePostCircleIcon",
+    "hideIconOnBalloonOpen": false
+   },
+   "properties": {
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
+    "balloonContentBody": "АО \"Почта Банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 7",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
+    "hintContent": "АО \"Почта Банк\"",
+    "typeObject": "Банковские услуги в отделениях Почты России"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 81,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.343624,
+     61.34507
+    ]
+   },
+   "options": {
+    "preset": "islands#bluePostCircleIcon",
+    "hideIconOnBalloonOpen": false
+   },
+   "properties": {
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
+    "balloonContentBody": "АО \"Почта Банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, переулок Черняховского, 2",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
+    "hintContent": "АО \"Почта Банк\"",
+    "typeObject": "Банковские услуги в отделениях Почты России"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 82,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.362478,
+     61.395035
+    ]
+   },
+   "options": {
+    "preset": "islands#bluePostCircleIcon",
+    "hideIconOnBalloonOpen": false
+   },
+   "properties": {
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
+    "balloonContentBody": "АО \"Почта Банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Металлургов, 1",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
+    "hintContent": "АО \"Почта Банк\"",
+    "typeObject": "Банковские услуги в отделениях Почты России"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 83,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.299385,
+     61.21415
+    ]
+   },
+   "options": {
+    "preset": "islands#bluePostCircleIcon",
+    "hideIconOnBalloonOpen": false
+   },
+   "properties": {
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
+    "balloonContentBody": "АО \"Почта Банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Режевской городской округ, посёлок Озёрный, Клубная улица, 1",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
+    "hintContent": "АО \"Почта Банк\"",
+    "typeObject": "Банковские услуги в отделениях Почты России"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 84,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.52707,
+     61.501081
+    ]
+   },
+   "options": {
+    "preset": "islands#bluePostCircleIcon",
+    "hideIconOnBalloonOpen": false
+   },
+   "properties": {
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
+    "balloonContentBody": "АО \"Почта Банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Режевской городской округ, село Арамашка, улица Ленина, 25",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
+    "hintContent": "АО \"Почта Банк\"",
+    "typeObject": "Банковские услуги в отделениях Почты России"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 85,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.477697,
+     61.41372
+    ]
+   },
+   "options": {
+    "preset": "islands#bluePostCircleIcon",
+    "hideIconOnBalloonOpen": false
+   },
+   "properties": {
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
+    "balloonContentBody": "АО \"Почта Банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Режевской городской округ, село Глинское, улица Космонавтов, 2",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
+    "hintContent": "АО \"Почта Банк\"",
+    "typeObject": "Банковские услуги в отделениях Почты России"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 86,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.517858,
+     61.35797
+    ]
+   },
+   "options": {
+    "preset": "islands#bluePostCircleIcon",
+    "hideIconOnBalloonOpen": false
+   },
+   "properties": {
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
+    "balloonContentBody": "АО \"Почта Банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Режевской городской округ, поселок Клевакинское, улица 1 Мая, 44",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
+    "hintContent": "АО \"Почта Банк\"",
+    "typeObject": "Банковские услуги в отделениях Почты России"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 87,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.585259,
+     61.381003
+    ]
+   },
+   "options": {
+    "preset": "islands#bluePostCircleIcon",
+    "hideIconOnBalloonOpen": false
+   },
+   "properties": {
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
+    "balloonContentBody": "АО \"Почта Банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Режевской городской округ, село Леневское, Советская улица, 4",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
+    "hintContent": "АО \"Почта Банк\"",
+    "typeObject": "Банковские услуги в отделениях Почты России"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 88,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.449979,
+     61.169962
+    ]
+   },
+   "options": {
+    "preset": "islands#bluePostCircleIcon",
+    "hideIconOnBalloonOpen": false
+   },
+   "properties": {
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
+    "balloonContentBody": "АО \"Почта Банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Режевской городской округ, село Липовское, Совхозная улица, 31А",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
+    "hintContent": "АО \"Почта Банк\"",
+    "typeObject": "Банковские услуги в отделениях Почты России"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 89,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.42141,
+     61.317429
+    ]
+   },
+   "options": {
+    "preset": "islands#bluePostCircleIcon",
+    "hideIconOnBalloonOpen": false
+   },
+   "properties": {
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
+    "balloonContentBody": "АО \"Почта Банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Режевской городской округ, посёлок Останино, улица Мира, 80",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
+    "hintContent": "АО \"Почта Банк\"",
+    "typeObject": "Банковские услуги в отделениях Почты России"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 90,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.449925,
+     60.894152
+    ]
+   },
+   "options": {
+    "preset": "islands#bluePostCircleIcon",
+    "hideIconOnBalloonOpen": false
+   },
+   "properties": {
+    "balloonContentHeader": "Банковские услуги в отделениях Почты России",
+    "balloonContentBody": "АО \"Почта Банк\"",
+    "balloonContentFooter": "Россия, Свердловская область, Режевской городской округ, село Черемисское, улица Карла Маркса, 6А",
+    "clusterCaption": "Банковские услуги в отделениях Почты России",
+    "hintContent": "АО \"Почта Банк\"",
+    "typeObject": "Банковские услуги в отделениях Почты России"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 91,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372792,
+     61.390651
+    ]
+   },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 5",
+    "clusterCaption": "Точка выдачи наличных в магазине",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Точка выдачи наличных в магазине"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 92,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372792,
+     61.390651
+    ]
+   },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 5",
+    "clusterCaption": "Точка выдачи наличных в магазине",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Точка выдачи наличных в магазине"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 93,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372792,
+     61.390651
+    ]
+   },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 5",
+    "clusterCaption": "Точка выдачи наличных в магазине",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Точка выдачи наличных в магазине"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 94,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372792,
+     61.390651
+    ]
+   },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 5",
+    "clusterCaption": "Точка выдачи наличных в магазине",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Точка выдачи наличных в магазине"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 95,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372792,
+     61.390651
+    ]
+   },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 5",
+    "clusterCaption": "Точка выдачи наличных в магазине",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Точка выдачи наличных в магазине"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 96,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.361638,
+     61.398628
+    ]
+   },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Павлика Морозова, 18",
+    "clusterCaption": "Точка выдачи наличных в магазине",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Точка выдачи наличных в магазине"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 97,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.342749,
+     61.335396
+    ]
+   },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Строителей, 1",
+    "clusterCaption": "Точка выдачи наличных в магазине",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Точка выдачи наличных в магазине"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 98,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.342749,
+     61.335396
+    ]
+   },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Строителей, 1",
+    "clusterCaption": "Точка выдачи наличных в магазине",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Точка выдачи наличных в магазине"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 99,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.342749,
+     61.335396
+    ]
+   },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Строителей, 1",
+    "clusterCaption": "Точка выдачи наличных в магазине",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Точка выдачи наличных в магазине"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 100,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.361638,
+     61.398628
+    ]
+   },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Павлика Морозова, 18",
+    "clusterCaption": "Точка выдачи наличных в магазине",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Точка выдачи наличных в магазине"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 101,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.361638,
+     61.398628
+    ]
+   },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Павлика Морозова, 18",
+    "clusterCaption": "Точка выдачи наличных в магазине",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Точка выдачи наличных в магазине"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 102,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.361638,
+     61.398628
+    ]
+   },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Павлика Морозова, 18",
+    "clusterCaption": "Точка выдачи наличных в магазине",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Точка выдачи наличных в магазине"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 103,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.361638,
+     61.398628
+    ]
+   },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Павлика Морозова, 18",
+    "clusterCaption": "Точка выдачи наличных в магазине",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Точка выдачи наличных в магазине"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 104,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.376174,
+     61.396238
+    ]
+   },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
+    "balloonContentBody": "ПАО Банк \"ФК Открытие\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, Почтовая улица, 2",
+    "clusterCaption": "Точка выдачи наличных в магазине",
+    "hintContent": "ПАО Банк \"ФК Открытие\"",
+    "typeObject": "Точка выдачи наличных в магазине"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 105,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.299833,
+     61.217096
+    ]
+   },
+   "options": {
+    "preset": "islands#orangeCircleDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка выдачи наличных в магазине",
+    "balloonContentBody": "ПАО Сбербанк",
+    "balloonContentFooter": "Россия, Свердловская область, Режевской городской округ, посёлок Озёрный, Клубная улица, 2",
+    "clusterCaption": "Точка выдачи наличных в магазине",
+    "hintContent": "ПАО Сбербанк",
+    "typeObject": "Точка выдачи наличных в магазине"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 106,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.371312,
+     61.380302
+    ]
+   },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "QIWI Bank (joint-stock company) QIWI Bank (JSC)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 32",
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "QIWI Bank (joint-stock company) QIWI Bank (JSC)",
+    "typeObject": "Точка оплаты наличными"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 107,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372122,
+     61.385252
+    ]
+   },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "QIWI Bank (joint-stock company) QIWI Bank (JSC)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 26",
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "QIWI Bank (joint-stock company) QIWI Bank (JSC)",
+    "typeObject": "Точка оплаты наличными"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 108,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.399473,
+     61.23889
+    ]
+   },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "\"YooMoney\", NBCO LLC",
+    "balloonContentFooter": "Россия, Свердловская область, Режевской городской округ",
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "\"YooMoney\", NBCO LLC",
+    "typeObject": "Точка оплаты наличными"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 109,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372122,
+     61.385252
+    ]
+   },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "Non-bank settlement credit institution Money.Mail.Ru (LLC); Money.Mail.Ru",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 26",
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "Non-bank settlement credit institution Money.Mail.Ru (LLC); Money.Mail.Ru",
+    "typeObject": "Точка оплаты наличными"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 110,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372122,
+     61.385252
+    ]
+   },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "Nonbank credit organization \"MOBI. Money\" Limited Liability Company NCO \"MOBI. Money\" LLC",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 26",
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "Nonbank credit organization \"MOBI. Money\" Limited Liability Company NCO \"MOBI. Money\" LLC",
+    "typeObject": "Точка оплаты наличными"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 111,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.379115,
+     61.385306
+    ]
+   },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "QIWI Bank (joint-stock company) QIWI Bank (JSC)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Машиностроителей, 3",
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "QIWI Bank (joint-stock company) QIWI Bank (JSC)",
+    "typeObject": "Точка оплаты наличными"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 112,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372069,
+     61.386941
+    ]
+   },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "Public Joint-Stock Company \"MTS Bank\"; PJSC \"MTS Bank\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 19",
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "Public Joint-Stock Company \"MTS Bank\"; PJSC \"MTS Bank\"",
+    "typeObject": "Точка оплаты наличными"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 113,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372792,
+     61.390651
+    ]
+   },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "Public Joint-Stock Company \"MTS Bank\"; PJSC \"MTS Bank\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 5",
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "Public Joint-Stock Company \"MTS Bank\"; PJSC \"MTS Bank\"",
+    "typeObject": "Точка оплаты наличными"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 114,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372802,
+     61.389878
+    ]
+   },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 7",
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "typeObject": "Точка оплаты наличными"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 115,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.370928,
+     61.427841
+    ]
+   },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Краснофлотцев, 7",
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "typeObject": "Точка оплаты наличными"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 116,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.343624,
+     61.34507
+    ]
+   },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, переулок Черняховского, 2",
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "typeObject": "Точка оплаты наличными"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 117,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.362478,
+     61.395035
+    ]
+   },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Металлургов, 1",
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "typeObject": "Точка оплаты наличными"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 118,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372122,
+     61.385252
+    ]
+   },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 26",
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "typeObject": "Точка оплаты наличными"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 119,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372792,
+     61.390651
+    ]
+   },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 5",
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "typeObject": "Точка оплаты наличными"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 120,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372069,
+     61.386941
+    ]
+   },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 19",
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "typeObject": "Точка оплаты наличными"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 121,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.371753,
+     61.386159
+    ]
+   },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 23",
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "typeObject": "Точка оплаты наличными"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 122,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.371753,
+     61.386159
+    ]
+   },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "UNISTREAM COMMERCIAL BANK (JSC), UNISTREAM  BANK",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 23",
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "UNISTREAM COMMERCIAL BANK (JSC), UNISTREAM  BANK",
+    "typeObject": "Точка оплаты наличными"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 123,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372122,
+     61.385252
+    ]
+   },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "Limited liability company settlement non-bank credit organization \"Wallet One\" , Wallet One",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 26",
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "Limited liability company settlement non-bank credit organization \"Wallet One\" , Wallet One",
+    "typeObject": "Точка оплаты наличными"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 124,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.299385,
+     61.21415
+    ]
+   },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "balloonContentFooter": "Россия, Свердловская область, Режевской городской округ, посёлок Озёрный, Клубная улица, 1",
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "typeObject": "Точка оплаты наличными"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 125,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.52707,
+     61.501081
+    ]
+   },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "balloonContentFooter": "Россия, Свердловская область, Режевской городской округ, село Арамашка, улица Ленина, 25",
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "typeObject": "Точка оплаты наличными"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 126,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.477697,
+     61.41372
+    ]
+   },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "balloonContentFooter": "Россия, Свердловская область, Режевской городской округ, село Глинское, улица Космонавтов, 2",
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "typeObject": "Точка оплаты наличными"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 127,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.517858,
+     61.35797
+    ]
+   },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "balloonContentFooter": "Россия, Свердловская область, Режевской городской округ, поселок Клевакинское, улица 1 Мая, 44",
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "typeObject": "Точка оплаты наличными"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 128,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.585259,
+     61.381003
+    ]
+   },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "balloonContentFooter": "Россия, Свердловская область, Режевской городской округ, село Леневское, Советская улица, 4",
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "typeObject": "Точка оплаты наличными"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 129,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.449979,
+     61.169962
+    ]
+   },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "balloonContentFooter": "Россия, Свердловская область, Режевской городской округ, село Липовское, Совхозная улица, 31А",
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "typeObject": "Точка оплаты наличными"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 130,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.42141,
+     61.317429
+    ]
+   },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "balloonContentFooter": "Россия, Свердловская область, Режевской городской округ, посёлок Останино, улица Мира, 80",
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "typeObject": "Точка оплаты наличными"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 131,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.449925,
+     60.894152
+    ]
+   },
+   "options": {
+    "preset": "islands#nightDotIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Точка оплаты наличными",
+    "balloonContentBody": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "balloonContentFooter": "Россия, Свердловская область, Режевской городской округ, село Черемисское, улица Карла Маркса, 6А",
+    "clusterCaption": "Точка оплаты наличными",
+    "hintContent": "Credit Union \"Payment Center\" ( Limited Liability Company)  Credit Union \"Payment Center\" Ltd",
+    "typeObject": "Точка оплаты наличными"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 132,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372069,
+     61.386941
+    ]
+   },
+   "options": {
+    "preset": "islands#violetStretchyIcon",
+    "hideIconOnBalloonOpen": false
+   },
+   "properties": {
+    "balloonContentHeader": "Микрофинансовая организация",
+    "balloonContentBody": "ООО МКК «Арифметика»",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 19",
+    "clusterCaption": "Микрофинансовая организация",
+    "hintContent": "ООО МКК «Арифметика»",
+    "typeObject": "Микрофинансовая организация",
+    "iconContent": "МФО"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 133,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372069,
+     61.386941
+    ]
+   },
+   "options": {
+    "preset": "islands#violetStretchyIcon",
+    "hideIconOnBalloonOpen": false
+   },
+   "properties": {
+    "balloonContentHeader": "Микрофинансовая организация",
+    "balloonContentBody": "ООО МКК «Фастмани.ру»",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 19",
+    "clusterCaption": "Микрофинансовая организация",
+    "hintContent": "ООО МКК «Фастмани.ру»",
+    "typeObject": "Микрофинансовая организация",
+    "iconContent": "МФО"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 134,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372239,
+     61.387498
+    ]
+   },
+   "options": {
+    "preset": "islands#violetStretchyIcon",
+    "hideIconOnBalloonOpen": false
+   },
+   "properties": {
+    "balloonContentHeader": "Микрофинансовая организация",
+    "balloonContentBody": "ООО МКК «СВОБОДАЗАЙМ»",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 17",
+    "clusterCaption": "Микрофинансовая организация",
+    "hintContent": "ООО МКК «СВОБОДАЗАЙМ»",
+    "typeObject": "Микрофинансовая организация",
+    "iconContent": "МФО"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 135,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372239,
+     61.387498
+    ]
+   },
+   "options": {
+    "preset": "islands#violetStretchyIcon",
+    "hideIconOnBalloonOpen": false
+   },
+   "properties": {
+    "balloonContentHeader": "Микрофинансовая организация",
+    "balloonContentBody": "ООО МКК «СВОБОДАЗАЙМ»",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 17",
+    "clusterCaption": "Микрофинансовая организация",
+    "hintContent": "ООО МКК «СВОБОДАЗАЙМ»",
+    "typeObject": "Микрофинансовая организация",
+    "iconContent": "МФО"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 136,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.371816,
+     61.384012
+    ]
+   },
+   "options": {
+    "preset": "islands#violetStretchyIcon",
+    "hideIconOnBalloonOpen": false
+   },
+   "properties": {
+    "balloonContentHeader": "Микрофинансовая организация",
+    "balloonContentBody": "ООО МКК «КВ Деньги Людям»",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 28",
+    "clusterCaption": "Микрофинансовая организация",
+    "hintContent": "ООО МКК «КВ Деньги Людям»",
+    "typeObject": "Микрофинансовая организация",
+    "iconContent": "МФО"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 137,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372792,
+     61.390651
+    ]
+   },
+   "options": {
+    "preset": "islands#violetStretchyIcon",
+    "hideIconOnBalloonOpen": false
+   },
+   "properties": {
+    "balloonContentHeader": "Микрофинансовая организация",
+    "balloonContentBody": "МФК «ЦФП» (АО)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 5",
+    "clusterCaption": "Микрофинансовая организация",
+    "hintContent": "МФК «ЦФП» (АО)",
+    "typeObject": "Микрофинансовая организация",
+    "iconContent": "МФО"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 138,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.370865,
+     61.382279
+    ]
+   },
+   "options": {
+    "preset": "islands#blueAttentionIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Страховая организация",
+    "balloonContentBody": "Акционерное общество \"Страховое общество газовой промышленности\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 35",
+    "clusterCaption": "Страховая организация",
+    "hintContent": "Акционерное общество \"Страховое общество газовой промышленности\"",
+    "typeObject": "Страховая организация"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 139,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.370865,
+     61.382279
+    ]
+   },
+   "options": {
+    "preset": "islands#blueAttentionIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Страховая организация",
+    "balloonContentBody": "Акционерное общество \"Страховая компания \"СОГАЗ-Мед\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 35",
+    "clusterCaption": "Страховая организация",
+    "hintContent": "Акционерное общество \"Страховая компания \"СОГАЗ-Мед\"",
+    "typeObject": "Страховая организация"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 140,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.361949,
+     61.393921
+    ]
+   },
+   "options": {
+    "preset": "islands#blueAttentionIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Страховая организация",
+    "balloonContentBody": "Общество с ограниченной ответственностью \"Капитал Лайф Страхование Жизни\"",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Металлургов, 3",
+    "clusterCaption": "Страховая организация",
+    "hintContent": "Общество с ограниченной ответственностью \"Капитал Лайф Страхование Жизни\"",
+    "typeObject": "Страховая организация"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 141,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     57.372933,
+     61.388576
+    ]
+   },
+   "options": {
+    "preset": "islands#blueAttentionIcon"
+   },
+   "properties": {
+    "balloonContentHeader": "Страховая организация",
+    "balloonContentBody": "СТРАХОВАЯ МЕДИЦИНСКАЯ КОМПАНИЯ \"АСТРАМЕД-МС\" (АКЦИОНЕРНОЕ ОБЩЕСТВО)",
+    "balloonContentFooter": "Россия, Свердловская область, Реж, улица Ленина, 14",
+    "clusterCaption": "Страховая организация",
+    "hintContent": "СТРАХОВАЯ МЕДИЦИНСКАЯ КОМПАНИЯ \"АСТРАМЕД-МС\" (АКЦИОНЕРНОЕ ОБЩЕСТВО)",
+    "typeObject": "Страховая организация"
+   }
+  }
+ ]
+}
