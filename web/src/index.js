@@ -1,7 +1,7 @@
 import regions from './modules/regions'
 // import 
 
-regions()
+// regions()
 
 ymaps.ready(init);
 
@@ -12,6 +12,7 @@ function init () {
         }, {
             searchControlProvider: 'yandex#search'
         }),
+
         objectManager = new ymaps.ObjectManager({
             // Чтобы метки начали кластеризоваться, выставляем опцию.
             clusterize: true,
@@ -26,14 +27,12 @@ function init () {
     // Чтобы задать опции одиночным объектам и кластерам,
     // обратимся к дочерним коллекциям ObjectManager.
 
-    //objectManager.objects.options.set('preset', 'islands#greenDotIcon');
-    //objectManager.clusters.options.set('preset', 'islands#greenClusterIcons');
-
     myMap.controls.remove('trafficControl'); // удаляем контроль трафика
     myMap.controls.remove('rulerControl'); // удаляем контрол правил
-    //myMap.controls.remove('searchControl'); // удаляем поисковый контрол
+    myMap.controls.remove('searchControl'); // удаляем поисковый контрол
+    myMap.controls.remove('geolocationControl');
+    myMap.controls.remove('zoomControl')
     myMap.geoObjects.add(objectManager);
-    // objectManager.setFilter('properties.hintContent == "Банк ГПБ (АО)"');
 
     // Создадим 9 пунктов выпадающего списка.
     var listBoxItems = ['Офис банка (в т.ч. передвижной пункт)', 'Удаленная точка банк. обслуживания', 'Банкомат (с использованием банк. карт)', 'Банкомат (без использования банк. карт)', 'Банковские услуги в отделениях Почты России', 'Точка выдачи наличных в магазине', 'Точка оплаты наличными', 'Микрофинансовая организация', 'Страховая организация']
@@ -65,6 +64,45 @@ function init () {
             }
         });
     myMap.controls.add(listBoxControl);
+
+    var firstButton = new ymaps.control.Button({
+        data: {
+            content: 'Меню',
+            title: 'Menu'
+        },
+        options: {
+            selectOnClick: true,
+            layout: ymaps.templateLayoutFactory.createClass(
+                // Если кнопка не нажата, применяется CSS стиль 'myButton'.
+                // Если кнопка нажата, к ней применятся CSS-стили 'myButton' и 'myButtonSelected'.
+   
+                "<div class='menu__btn {% if state.selected %}menu__btn_Selected{% endif %}' title='{{ data.title }}'>" +
+                "{{ data.content }}" +
+                "</div>"
+               ),
+        }
+    });
+
+    console.log(firstButton.options);
+
+    myMap.controls.add(firstButton, { float: 'left'});
+
+    firstButton.events.add('click', (e) => {
+        let html = `<div class="sidenav"></div>`
+        let body = body.append(html)
+
+    })
+
+    var zoomControl = new ymaps.control.ZoomControl({
+        options: {
+            size: "small",
+            position: {
+                right: 20,
+                bottom: 250
+            }
+        }
+    });
+    myMap.controls.add(zoomControl);
 
     // Добавим отслеживание изменения признака, выбран ли пункт списка.
     listBoxControl.events.add(['select', 'deselect'], function (e) {

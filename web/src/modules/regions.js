@@ -133,10 +133,6 @@ const regions = () => {
         ]
     }]
 
-    const map = document.querySelector('.map')
-
-    console.log(map);
-
     const menuItems = document.querySelectorAll('.menu__link')
 
     regions.forEach((item) => {
@@ -198,26 +194,7 @@ const regions = () => {
             }
         })
     }) // активные кнопки в фильтре
+
 }
 
 export default regions
-
-    // function renderList() {
-    //     const html = regions ? regions.map(card).join('') : `<div>empty</div>`
-    //     menu.innerHTML = html
-    // }
-
-    // function card(region) {
-    //     return `
-    //     <li class="title_region_menu">
-    //         <a class="menu_regions_title" href="#">
-    //             ${region.name}
-    //         </a>
-    //         <div class="dropdown-container">
-    //             <a class="dropdown-link" href="#">${region.oblast}</a>
-    //         </div>
-    //     </li>
-    //     `
-    // }
-
-    // renderList()
