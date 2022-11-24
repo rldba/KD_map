@@ -165,6 +165,14 @@ const regions = () => {
 
     const dropdown = document.querySelectorAll('.menu_regions_title')
     const dropdownLink = document.querySelectorAll('.dropdown-container')
+    const drop = document.querySelectorAll('.dropdown-link')
+
+    drop.forEach((item) => {
+        item.addEventListener('click', (e) => {
+            console.log(item);
+            
+        })
+    })
 
     dropdown.forEach((item, id) => {
         item.addEventListener('click', (e) => {
