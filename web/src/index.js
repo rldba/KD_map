@@ -239,10 +239,43 @@ function init () {
         ]
     }]
 
+    const filtersList = [
+        'Офис банка (в т.ч. передвижной пункт)',
+        'Удаленная точка банк. обслуживания',
+        'Банкомат (с использованием банк. карт)',
+        'Банкомат (без использования банк. карт)',
+        'Банковские услуги в отделениях Почты России',
+        'Точка выдачи наличных в магазине',
+        'Точка оплаты наличными',
+        'Микрофинансовая организация',
+        'Страховая организация'
+    ]
+
     const menuItems = document.querySelectorAll('.menu__link')
     const menuBtn = document.querySelector('.menu__btn')
     const sidenav = document.querySelector('.sidenav')
     let menuOpen = false; // переменные
+
+    filtersList.forEach((item) => {
+        const sidenavHeader = document.querySelector('.sidenav__header')
+
+        let nav = document.createElement('nav')
+        nav.classList.add('menu_header')
+        sidenavHeader.append(nav)
+
+        let list = document.createElement('ul')
+        list.classList.add('menu__list')
+        nav.append(list)
+
+        let listItem = document.createElement('li')
+        listItem.classList.add('menu__item')
+        list.append(listItem)
+
+        let link = document.createElement('a')
+        link.classList.add('menu__link')
+        link.textContent = `${item}`
+        listItem.append(link)
+    }) // отрисовка фильтров
 
     regions.forEach((item) => {
         const menu = document.querySelector('.menu__body_list')
@@ -290,7 +323,8 @@ function init () {
             border2.style.cssText = 'transform: rotate(45deg);'
             border3.style.cssText = 'top: 13px; transform: rotate(45deg);'
             sidenav.style.cssText = 'visibility: visible; left: 0'
-        } else {
+        }
+        else {
             border1.style.cssText = 'top: 4px; transform: none;'
             border2.style.cssText = 'transform: none;'
             border3.style.cssText = 'top: 22px; transform: none;'
@@ -301,7 +335,8 @@ function init () {
     menuBtn.addEventListener('click', (e) => {
         if (menuOpen == false) {
             menuOpen = true
-        } else {
+        }
+        else {
             menuOpen = false
         }
         menuSwitch()
@@ -309,8 +344,10 @@ function init () {
 
     drop.forEach((item) => {
         item.addEventListener('click', (e) => {
-            myMap.setCenter([
-                57.767265, 40.925358]
+            myMap.panTo([
+                57.767265, 40.925358], {
+                    delay: 1500
+                }
             );
             menuOpen = false
             menuSwitch()
@@ -320,7 +357,6 @@ function init () {
     dropdown.forEach((item, id) => {
         item.addEventListener('click', (e) => {
             e.preventDefault()
-            console.log('item');
 
             if (item.className === 'menu_regions_title') {
                 item.classList.add('active')
