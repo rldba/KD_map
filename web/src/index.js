@@ -240,6 +240,9 @@ function init () {
     }]
 
     const menuItems = document.querySelectorAll('.menu__link')
+    const menuBtn = document.querySelector('.menu__btn')
+    const sidenav = document.querySelector('.sidenav')
+    let menuOpen = false; // переменные
 
     regions.forEach((item) => {
         const menu = document.querySelector('.menu__body_list')
@@ -271,30 +274,48 @@ function init () {
 
     const dropdown = document.querySelectorAll('.menu_regions_title')
     const dropdownLink = document.querySelectorAll('.dropdown-container')
-    const drop = document.querySelectorAll('.dropdown-link')
+    const drop = document.querySelectorAll('.dropdown-link') // переменные отрисованные js'ом
 
-    const menuBtn = document.querySelector('.menu__btn')
+    const border1 = document.createElement('span')
+    border1.classList.add('border1')
+    const border2 = document.createElement('span')
+    border2.classList.add('border2')
+    const border3 = document.createElement('span')
+    border3.classList.add('border3')
+    menuBtn.append(border1, border2, border3) // отрисовка кнопки меню
 
-    const toggle = document.querySelector('#menu__toggle')
+    const menuSwitch = () => {
+        if (menuOpen == true) {
+            border1.style.cssText = 'top: 13px; transform: rotate(-45deg);'
+            border2.style.cssText = 'transform: rotate(45deg);'
+            border3.style.cssText = 'top: 13px; transform: rotate(45deg);'
+            sidenav.style.cssText = 'visibility: visible; left: 0'
+        } else {
+            border1.style.cssText = 'top: 4px; transform: none;'
+            border2.style.cssText = 'transform: none;'
+            border3.style.cssText = 'top: 22px; transform: none;'
+            sidenav.style.cssText = 'visibility: hidden; left: -100%'
+        }
+    } // функция со сценарием изменения значения menuOpen
 
-
-    // menuBtn.addEventListener('click', (e) => {
-    //     console.log(toggle.value)
-    // })
+    menuBtn.addEventListener('click', (e) => {
+        if (menuOpen == false) {
+            menuOpen = true
+        } else {
+            menuOpen = false
+        }
+        menuSwitch()
+    }) // изменение переменной menuOpen вследствии клика по кнопке меню
 
     drop.forEach((item) => {
         item.addEventListener('click', (e) => {
-            console.log(item);
             myMap.setCenter([
                 57.767265, 40.925358]
             );
-
-            // styleNav.style.left = '-100%'
-            // styleNav.style.visibility = 'hidden'
+            menuOpen = false
+            menuSwitch()
         })
-    })
-
-
+    }) // клик по списку с областями регионов
 
     dropdown.forEach((item, id) => {
         item.addEventListener('click', (e) => {
