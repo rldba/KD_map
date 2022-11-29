@@ -50,6 +50,7 @@ function init () {
             filters[filter.data.get('content')] = filter.isSelected();
             return filters;
         },
+                
         // Теперь создадим список, содержащий 9 пунктов.
         listBoxControl = new ymaps.control.ListBox({
             data: {
@@ -61,8 +62,9 @@ function init () {
                 // Признак, развернут ли список.
                 expanded: false,
                 filters: listBoxItems.reduce(reducer, {})
-            }
+            },
         });
+        // console.log(listBoxItems);
     myMap.controls.add(listBoxControl);
 
     var zoomControl = new ymaps.control.ZoomControl({
@@ -80,8 +82,11 @@ function init () {
     listBoxControl.events.add(['select', 'deselect'], function (e) {
         var listBoxItem = e.get('target');
         var filters = ymaps.util.extend({}, listBoxControl.state.get('filters'));
+        // console.log(filters);
+        // console.log(listBoxControl.state.get('filters'));
         filters[listBoxItem.data.get('content')] = listBoxItem.isSelected();
         //alert(filters[0])
+        console.log(filters);
         listBoxControl.state.set('filters', filters);
     });
 
@@ -89,7 +94,9 @@ function init () {
     var filterMonitor = new ymaps.Monitor(listBoxControl.state);
     filterMonitor.add('filters', function (filters) {
         // Применим фильтр.
+        console.log(filters);
         objectManager.setFilter(getFilterFunction(filters));
+
     });
 
     function getFilterFunction(categories) {
@@ -98,12 +105,6 @@ function init () {
             return categories[content]
         }
     }
-
-    $.ajax({
-        url: "rezh.json"
-    }).done(function(data) {
-        objectManager.add(data);
-    });
 
     let regions = [{
         id: 1,
@@ -239,24 +240,25 @@ function init () {
         ]
     }]
 
-    const filtersList = [
-        'Офис банка (в т.ч. передвижной пункт)',
-        'Удаленная точка банк. обслуживания',
-        'Банкомат (с использованием банк. карт)',
-        'Банкомат (без использования банк. карт)',
-        'Банковские услуги в отделениях Почты России',
-        'Точка выдачи наличных в магазине',
-        'Точка оплаты наличными',
-        'Микрофинансовая организация',
-        'Страховая организация'
-    ]
+    const filtersList = {
+        'Офис банка (в т.ч. передвижной пункт)': true,
+        'Удаленная точка банк. обслуживания': true,
+        'Банкомат (с использованием банк. карт)': true,
+        'Банкомат (без использования банк. карт)': true,
+        'Банковские услуги в отделениях Почты России': true,
+        'Точка выдачи наличных в магазине': true,
+        'Точка оплаты наличными': true,
+        'Микрофинансовая организация': true,
+        'Страховая организация': true,
+    }
 
     const menuItems = document.querySelectorAll('.menu__link')
     const menuBtn = document.querySelector('.menu__btn')
     const sidenav = document.querySelector('.sidenav')
     let menuOpen = false; // переменные
 
-    filtersList.forEach((item) => {
+    for (let key in filtersList) {
+        // перебор объекта filtersList
         const sidenavHeader = document.querySelector('.sidenav__header')
 
         let nav = document.createElement('nav')
@@ -273,9 +275,34 @@ function init () {
 
         let link = document.createElement('a')
         link.classList.add('menu__link')
-        link.textContent = `${item}`
+        link.textContent = `${key}`
+        console.log(filtersList[key]);
         listItem.append(link)
-    }) // отрисовка фильтров
+        // отрисовка списка фильтров по ключу объекта filtersList
+
+        link.addEventListener('click', (e) => {
+            filtersList[key] == true ? filtersList[key] = false : filtersList[key] = true // условия для значений
+
+            // добавление объекта с ключами и новыми значениями в OM
+            objectManager.setFilter(getFilterFunction(filtersList));
+
+            // функция, которая добавляет в свойство filter содержимое объекта filtersList
+            function getFilterFunction(categories) {
+                return function (obj) {
+                    let content = obj.properties.typeObject;
+                    return categories[content] 
+                }
+            }
+        })
+    }
+
+    $.ajax({
+        url: "rezh.json"
+    }).done(function(data) {
+        objectManager.add(data);
+    });
+
+    // отрисовка фильтров
 
     regions.forEach((item) => {
         const menu = document.querySelector('.menu__body_list')

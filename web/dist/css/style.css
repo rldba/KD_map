@@ -201,9 +201,9 @@ a {
   display: none !important;
 }
 
-/* [class*="ymaps-2-1-79-listbox ymaps-2-1-79-listbox_opened_no"] {
+[class*="ymaps-2-1-79-listbox ymaps-2-1-79-listbox_opened_no"] {
   display: none !important;
-} */
+}
 /* Фильтр
 
 
