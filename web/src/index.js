@@ -252,89 +252,11 @@ function init () {
         'Страховая организация': true,
     }
 
-    const menuItems = document.querySelectorAll('.menu__link')
     const menuBtn = document.querySelector('.menu__btn')
     const sidenav = document.querySelector('.sidenav')
-    let menuOpen = false; // переменные
-
-    for (let key in filtersList) {
-        // перебор объекта filtersList
-        const sidenavHeader = document.querySelector('.sidenav__header')
-
-        let nav = document.createElement('nav')
-        nav.classList.add('menu_header')
-        sidenavHeader.append(nav)
-
-        let list = document.createElement('ul')
-        list.classList.add('menu__list')
-        nav.append(list)
-
-        let listItem = document.createElement('li')
-        listItem.classList.add('menu__item')
-        list.append(listItem)
-
-        let link = document.createElement('a')
-        link.classList.add('menu__link')
-        link.textContent = `${key}`
-        console.log(filtersList[key]);
-        listItem.append(link)
-        // отрисовка списка фильтров по ключу объекта filtersList
-
-        link.addEventListener('click', (e) => {
-            filtersList[key] == true ? filtersList[key] = false : filtersList[key] = true // условия для значений
-
-            // добавление объекта с ключами и новыми значениями в OM
-            objectManager.setFilter(getFilterFunction(filtersList));
-
-            // функция, которая добавляет в свойство filter содержимое объекта filtersList
-            function getFilterFunction(categories) {
-                return function (obj) {
-                    let content = obj.properties.typeObject;
-                    return categories[content] 
-                }
-            }
-        })
-    }
-
-    $.ajax({
-        url: "rezh.json"
-    }).done(function(data) {
-        objectManager.add(data);
-    });
-
-    // отрисовка фильтров
-
-    regions.forEach((item) => {
-        const menu = document.querySelector('.menu__body_list')
-
-        let list = document.createElement('li')
-        list.classList.add('title_region_menu')
-        menu.append(list)
-
-        let listLink = document.createElement('a')
-        listLink.classList.add('menu_regions_title')
-        listLink.textContent = `${item.name}`
-        list.append(listLink)
-
-        let container = document.createElement('ul')
-        container.classList.add('dropdown-container')
-        list.append(container)
-        
-        for (let i = 0; i < item.oblast.length; i++) {
-            let list = document.createElement('li')
-            list.classList.add('dropdown-list')
-            container.append(list)
-
-            let link = document.createElement('a')
-            link.classList.add('dropdown-link')
-            link.textContent = `${item.oblast[i]}`
-            list.append(link)
-        }
-    }) // рендеринг содержимого массива regions
-
-    const dropdown = document.querySelectorAll('.menu_regions_title')
-    const dropdownLink = document.querySelectorAll('.dropdown-container')
-    const drop = document.querySelectorAll('.dropdown-link') // переменные отрисованные js'ом
+    let triangleOpen = false
+    let menuOpen = false;
+    const sidenavHeader = document.querySelector('.filter_container') // переменные
 
     const border1 = document.createElement('span')
     border1.classList.add('border1')
@@ -369,6 +291,103 @@ function init () {
         menuSwitch()
     }) // изменение переменной menuOpen вследствии клика по кнопке меню
 
+    const nameList = document.querySelector('.name_list')
+
+    let triangle = document.createElement('span')
+    triangle.classList.add('triangle')
+    nameList.append(triangle)
+
+    const triangleSwitch = () => {
+        triangleOpen == true ? triangle.style.cssText = 'bottom: 5px; transform: rotate(180deg);' : triangle.style.cssText = 'transform: none'
+        triangleOpen == true ? sidenavHeader.style.cssText = 'visibility: visible; top: 0' : sidenavHeader.style.cssText = 'visibility: hidden; top: -100%'
+    }
+
+    nameList.addEventListener('click', (e) => {
+        triangleOpen == false ? triangleOpen = true : triangleOpen = false
+        triangleSwitch()
+    })
+
+
+    for (let key in filtersList) {
+        // перебор объекта filtersList
+
+        let nav = document.createElement('nav')
+        nav.classList.add('menu_header')
+        sidenavHeader.append(nav)
+
+        let list = document.createElement('ul')
+        list.classList.add('menu__list')
+        nav.append(list)
+
+        let listItem = document.createElement('li')
+        listItem.classList.add('menu__item')
+        list.append(listItem)
+
+        let link = document.createElement('a')
+        link.classList.add('menu__link')
+        link.textContent = `${key}`
+        console.log(filtersList[key]);
+        listItem.append(link)
+        // отрисовка списка фильтров по ключу объекта filtersList
+
+        filtersList[key] == true ? link.classList.add('active') : link.classList.remove('active') // активность кнопки в зависимости от состояния фильтра
+
+        link.addEventListener('click', (e) => {
+            filtersList[key] == true ? filtersList[key] = false : filtersList[key] = true // условия для значений
+            filtersList[key] == true ? link.classList.add('active') : link.classList.remove('active')
+
+            // добавление объекта с ключами и новыми значениями в OM
+            objectManager.setFilter(getFilterFunction(filtersList));
+
+            // функция, которая добавляет в свойство filter содержимое объекта filtersList
+            function getFilterFunction(categories) {
+                return function (obj) {
+                    let content = obj.properties.typeObject;
+                    return categories[content] 
+                }
+            }
+        })
+    }
+
+    $.ajax({
+        url: "rezh.json"
+    }).done(function(data) {
+        objectManager.add(data);
+    });
+    // сгенерированный из xls посредством Пайтона в json в objectManager
+
+    regions.forEach((item) => {
+        const menu = document.querySelector('.menu__body_list')
+
+        let list = document.createElement('li')
+        list.classList.add('title_region_menu')
+        menu.append(list)
+
+        let listLink = document.createElement('a')
+        listLink.classList.add('menu_regions_title')
+        listLink.textContent = `${item.name}`
+        list.append(listLink)
+
+        let container = document.createElement('ul')
+        container.classList.add('dropdown-container')
+        list.append(container)
+        
+        for (let i = 0; i < item.oblast.length; i++) {
+            let list = document.createElement('li')
+            list.classList.add('dropdown-list')
+            container.append(list)
+
+            let link = document.createElement('a')
+            link.classList.add('dropdown-link')
+            link.textContent = `${item.oblast[i]}`
+            list.append(link)
+        }
+    }) // рендеринг содержимого массива regions
+
+    const dropdown = document.querySelectorAll('.menu_regions_title')
+    const dropdownLink = document.querySelectorAll('.dropdown-container')
+    const drop = document.querySelectorAll('.dropdown-link') // переменные отрисованные js'ом
+
     drop.forEach((item) => {
         item.addEventListener('click', (e) => {
             myMap.panTo([
@@ -396,17 +415,16 @@ function init () {
         })
     }) // активные кнопки в меню выбора регионов
 
-    menuItems.forEach((item) => {
-        item.addEventListener('click', (e) => {
-            e.preventDefault()
+    // menuItems.forEach((item) => {
+    //     item.addEventListener('click', (e) => {
+    //         e.preventDefault()
 
-            if (item.className === 'menu__link') {
-                item.classList.add('active')
-            }
-            else {
-                item.classList.remove('active')
-            }
-        })
-    }) // активные кнопки в фильтре
-
+    //         if (item.className === 'menu__link') {
+    //             item.classList.add('active')
+    //         }
+    //         else {
+    //             item.classList.remove('active')
+    //         }
+    //     })
+    // })
 }

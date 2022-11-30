@@ -65,10 +65,22 @@ a {
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
   width: 16%;
   height: 100%;
-  position: fixed;
   background-color: rgb(255, 255, 255);
   overflow-x: hidden;
   border-right: 1px solid #dddfe0;
+  transition-duration: .3s;
+}
+
+.filter_container {
+  visibility: hidden;
+  top: -100%;
+  transition-duration: .3s;
+}
+
+.triangle {
+  position: relative;
+  margin: 10px 0 0 0;
+  border: 5px solid transparent; border-top: 5px solid rgb(0, 0, 0);
   transition-duration: .3s;
 }
 
@@ -118,10 +130,11 @@ a {
 .name_list {
   background: #eef3f8;
   display: flex;
-  /* justify-content: center; */
+  justify-content: space-between;
   font-size: 20px;
   padding: 15px 20px;
-  box-shadow: 0px 2px 3px 1px rgb(0 0 0 / 17%)
+  cursor: pointer;
+  box-shadow: 0px 2px 3px 1px rgb(0 0 0 / 17%);
 }
 
 .menu_regions_title {
