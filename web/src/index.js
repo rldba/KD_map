@@ -370,6 +370,16 @@ function init () {
         })
     }) // активные кнопки в меню выбора регионов
 
+    console.log(objectManager.objects.balloon);
+
+//     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i
+//     .test(navigator.userAgent)) {
+
+
+//     alert("Вы используете мобильное устройство (телефон или планшет).")
+
+// } else alert("Вы используете ПК.")
+
     // menuItems.forEach((item) => {
     //     item.addEventListener('click', (e) => {
     //         e.preventDefault()
