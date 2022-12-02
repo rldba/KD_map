@@ -56,14 +56,13 @@ a {
   visibility: hidden;
   top: 0;
   left: -100%;
-  width: 300px;
   height: 100%;
   margin: 0;
   padding: 40px 0;
   list-style: none;
   background-color: #ECEFF1;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-  width: 16%;
+  width: 20%;
   height: 100%;
   background-color: rgb(255, 255, 255);
   overflow-x: hidden;
@@ -72,8 +71,8 @@ a {
 }
 
 .filter_container {
-  visibility: hidden;
-  top: -100%;
+  visibility: visible;
+  /* top: -100%; */
   transition-duration: .3s;
 }
 
@@ -125,6 +124,14 @@ a {
 .sidenav__header {
   /* padding: 20px; */
   border-bottom: 1px solid #dddfe0;
+}
+
+.icon {
+  width: 10px;
+  height: 10px;
+  border: 5px solid rgb(255, 0, 0);
+  border-radius: 30px;
+  margin: 5px 10px 5px 5px; 
 }
 
 .name_list {
@@ -188,22 +195,29 @@ a {
     justify-content: center;
 }
 
-.menu_header {
-  cursor: pointer;
-}
-
-.menu_header:hover {
-  background-color:#afefff;
-}
-
 .menu__link {
   cursor: pointer;
-  border-bottom: 1.5px solid #dddfe0;
+  margin: 10px;
+  border: 1.5px solid #dddfe0;
+  border-radius: 20px;
   display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
   align-items: center;
-  padding: 12px 19px;
-  font-size: 18px;
+  padding: 10px;
+  font-size: 15px;
   transition: all .3s;
+  background-color: #dddfe0;
+}
+
+.menu__link:active {
+  /* opacity: .5; */
+  color: rgb(255, 255, 255);
+  background: rgb(114, 114, 114);
+}
+
+.active {
+  background-color:#afefff;
 }
 
 /* [class*="ymaps-2-1-79-float-button ymaps-2-1-79-_hidden-text"] {
@@ -323,5 +337,4 @@ a {
     background-repeat: no-repeat;
     background-position: center;
   }
-
 
