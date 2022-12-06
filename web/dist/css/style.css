@@ -399,4 +399,16 @@ a {
     border-right: 1px solid #dddfe0;
     transition-duration: .3s;
   }
+
+  .ymaps-2-1-79-balloon__layout {
+    max-width: 400px;
+  }
+
+  .ymaps-2-1-79-b-cluster-tabs__section{
+    width: 50%;
+  }
+
+  .ymaps-2-1-79-b-cluster-tabs__section_type_content {
+    width: 50%;
+  }
 }

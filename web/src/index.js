@@ -16,8 +16,10 @@ function init () {
             clusterDisableClickZoom: true,
             clusterHideIconOnBalloonOpen: false,
             // Макет метки кластера pieChart.
-            clusterIconLayout: "default#pieChart"
+            clusterIconLayout: "default#pieChart",
         });
+
+        
 
     // Чтобы задать опции одиночным объектам и кластерам,
     // обратимся к дочерним коллекциям ObjectManager.
@@ -224,6 +226,7 @@ function init () {
             menuOpen = false
         }
         menuSwitch()
+        objectManager.objects.balloon.close();
     }) // изменение переменной menuOpen вследствии клика по кнопке меню
 
     let triangle = document.createElement('span')
@@ -258,15 +261,16 @@ function init () {
 
                 let icon = document.createElement('span')
                 icon.classList.add('icon')
-                key == 'Офис банка (в т.ч. передвижной пункт)' ? icon.style.cssText = 'border: 7px solid rgb(238 67 68);' : console.log('g');
-                key == 'Удаленная точка банк. обслуживания' ? icon.style.cssText = 'border: 7px solid rgb(238 67 68);' : console.log('g');
-                key == 'Банкомат (с использованием банк. карт)' ? icon.style.cssText = 'border: 7px solid rgb(82 221 81);' : console.log('g');
-                key == 'Банкомат (без использования банк. карт)' ? icon.style.cssText = 'border: 7px solid rgb(21 149 251);' : console.log('g');
-                key == 'Банковские услуги в отделениях Почты России' ? icon.style.cssText = 'border: 7px solid rgb(21 149 251);' : console.log('g');
-                key == 'Точка выдачи наличных в магазине' ? icon.style.cssText = 'border: 7px solid rgb(255 148 47);' : console.log('g');
-                key == 'Точка оплаты наличными' ? icon.style.cssText = 'border: 7px solid rgb(11 70 119);' : console.log('g');
-                key == 'Микрофинансовая организация' ? icon.style.cssText = 'border: 7px solid rgb(239 126 234);' : console.log('g');
-                key == 'Страховая организация' ? icon.style.cssText = 'border: 7px solid rgb(21 149 251);' : console.log('g');
+                if (key == 'Офис банка (в т.ч. передвижной пункт)')
+                key == 'Офис банка (в т.ч. передвижной пункт)' ? icon.style.cssText = 'border: 7px solid rgb(238 67 68);' : null
+                key == 'Удаленная точка банк. обслуживания' ? icon.style.cssText = 'border: 7px solid rgb(238 67 68);' : null;
+                key == 'Банкомат (с использованием банк. карт)' ? icon.style.cssText = 'border: 7px solid rgb(82 221 81);' : null;
+                key == 'Банкомат (без использования банк. карт)' ? icon.style.cssText = 'border: 7px solid rgb(21 149 251);' : null;
+                key == 'Банковские услуги в отделениях Почты России' ? icon.style.cssText = 'border: 7px solid rgb(21 149 251);' : null;
+                key == 'Точка выдачи наличных в магазине' ? icon.style.cssText = 'border: 7px solid rgb(255 148 47);' : null;
+                key == 'Точка оплаты наличными' ? icon.style.cssText = 'border: 7px solid rgb(11 70 119);' : null;
+                key == 'Микрофинансовая организация' ? icon.style.cssText = 'border: 7px solid rgb(239 126 234);' : null;
+                key == 'Страховая организация' ? icon.style.cssText = 'border: 7px solid rgb(21 149 251);' : null;
 
                 link.append(icon)
                 // отрисовка списка фильтров по ключу объекта filtersList
@@ -370,15 +374,19 @@ function init () {
         })
     }) // активные кнопки в меню выбора регионов
 
-    console.log(objectManager.objects.balloon);
+    myMap.events.add('click', (e) => {
+        myMap.balloon.close()
+    }); // закрытие баллуннов по клику по карте
 
-//     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i
-//     .test(navigator.userAgent)) {
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i
+    .test(navigator.userAgent)) {
 
+    console.log("Вы используете мобильное устройство (телефон или планшет).")
 
-//     alert("Вы используете мобильное устройство (телефон или планшет).")
+} else {
 
-// } else alert("Вы используете ПК.")
+}
+
 
     // menuItems.forEach((item) => {
     //     item.addEventListener('click', (e) => {
