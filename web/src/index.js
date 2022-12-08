@@ -19,10 +19,11 @@ function init () {
             clusterIconLayout: "default#pieChart",
         });
 
-        
-
-    // Чтобы задать опции одиночным объектам и кластерам,
-    // обратимся к дочерним коллекциям ObjectManager.
+    $.ajax({
+        url: "rezh.json"
+    }).done(function(data) {
+        objectManager.add(data);
+    }); // сгенерированный из xls посредством Пайтона в json в objectManager
 
     myMap.controls.remove('trafficControl'); // удаляем контроль трафика
     myMap.controls.remove('rulerControl'); // удаляем контрол правил
@@ -308,13 +309,6 @@ function init () {
         dropFilters()
     })
 
-    $.ajax({
-        url: "rezh.json"
-    }).done(function(data) {
-        objectManager.add(data);
-    });
-    // сгенерированный из xls посредством Пайтона в json в objectManager
-
     regions.forEach((item) => {
         const menu = document.querySelector('.menu__body_list')
 
@@ -380,12 +374,10 @@ function init () {
 
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i
     .test(navigator.userAgent)) {
+        objectManager.options.set({balloonPanelMaxMapArea:'Infinity'})
+    } else {
 
-    console.log("Вы используете мобильное устройство (телефон или планшет).")
-
-} else {
-
-}
+    }
 
 
     // menuItems.forEach((item) => {
