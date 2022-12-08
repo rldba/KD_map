@@ -19,18 +19,11 @@ function init () {
             clusterIconLayout: "default#pieChart",
         });
 
-    $.ajax({
-        url: "rezh.json"
-    }).done(function(data) {
-        objectManager.add(data);
-    }); // сгенерированный из xls посредством Пайтона в json в objectManager
-
     myMap.controls.remove('trafficControl'); // удаляем контроль трафика
     myMap.controls.remove('rulerControl'); // удаляем контрол правил
     myMap.controls.remove('searchControl'); // удаляем поисковый контрол
     myMap.controls.remove('geolocationControl');
     myMap.controls.remove('zoomControl')
-    myMap.geoObjects.add(objectManager);
 
     var zoomControl = new ymaps.control.ZoomControl({
         options: {
@@ -42,6 +35,7 @@ function init () {
         }
     });
     myMap.controls.add(zoomControl); // кнопки зумма
+    myMap.geoObjects.add(objectManager);
 
     let regions = [{
         id: 1,
@@ -371,6 +365,12 @@ function init () {
     myMap.events.add('click', (e) => {
         myMap.balloon.close()
     }); // закрытие баллуннов по клику по карте
+
+    $.ajax({
+        url: "rezh.json"
+    }).done(function(data) {
+        objectManager.add(data);
+    }); // сгенерированный из xls посредством Пайтона в json в objectManager
 
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i
     .test(navigator.userAgent)) {
