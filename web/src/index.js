@@ -18,12 +18,17 @@ function init () {
             // Макет метки кластера pieChart.
             clusterIconLayout: "default#pieChart",
         });
+    
+    // myMap.behaviors.enable('routeEditor')
+    // myMap.behaviors.enable('ruler') Поведения карты (до лучших времен)
 
     myMap.controls.remove('trafficControl'); // удаляем контроль трафика
     myMap.controls.remove('rulerControl'); // удаляем контрол правил
     myMap.controls.remove('searchControl'); // удаляем поисковый контрол
     myMap.controls.remove('geolocationControl');
     myMap.controls.remove('zoomControl')
+    myMap.controls.remove('fullscreenControl')
+    myMap.geoObjects.add(objectManager);
 
     var zoomControl = new ymaps.control.ZoomControl({
         options: {
@@ -35,7 +40,7 @@ function init () {
         }
     });
     myMap.controls.add(zoomControl); // кнопки зумма
-    myMap.geoObjects.add(objectManager);
+
 
     let regions = [{
         id: 1,
@@ -203,13 +208,13 @@ function init () {
             border1.style.cssText = 'top: 13px; transform: rotate(-45deg);'
             border2.style.cssText = 'transform: rotate(45deg);'
             border3.style.cssText = 'top: 13px; transform: rotate(45deg);'
-            sidenav.style.cssText = 'visibility: visible; left: 0'
+            sidenav.style.cssText = 'visibility: visible; top: 0'
         }
         else {
             border1.style.cssText = 'top: 4px; transform: none;'
             border2.style.cssText = 'transform: none;'
             border3.style.cssText = 'top: 22px; transform: none;'
-            sidenav.style.cssText = 'visibility: hidden; left: -100%'
+            sidenav.style.cssText = 'visibility: hidden; -100%;'
         }
     } // функция со сценарием изменения значения menuOpen
 
@@ -366,6 +371,8 @@ function init () {
         myMap.balloon.close()
     }); // закрытие баллуннов по клику по карте
 
+    console.log(objectManager.objects.balloon);
+
     $.ajax({
         url: "rezh.json"
     }).done(function(data) {
@@ -375,8 +382,9 @@ function init () {
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i
     .test(navigator.userAgent)) {
         objectManager.options.set({balloonPanelMaxMapArea:'Infinity'})
+        myMap.options.set({balloonPanelMaxMapArea:'Infinity'})
     } else {
-
+        
     }
 
 

@@ -19,34 +19,37 @@
         </script>
         <script src="./js/main.js" defer></script>
     </div>
-    <button class="menu__btn"></button>
-    <div class="sidenav">
-        <a href="#" class="logo">
-            <img class = 'logo-cbr' src="img/10andmore.png" alt="logo">
-        </a>
-        <div class="sidenav__header">
-            <span class="name_list">Фильтры</span>
-            <div class="filter_container"></div>
-
-            <!-- Здесь рендеринг массива filtersList -->
-        </div>
-        <div class="sidenav__body">
-            <span class="name_list">Федеральные округа</span>
-            <nav class="menu_body">
-                <ul class="menu__body_list">
-                    <!-- Здесь рендеринг массива regions -->
-                </ul>
-            </nav>
-        </div>
-    </div>
-    <!-- <form id="search_address" name="search_form">
-        <div class="text-field">
-            <div class="text-field__icon text-field__icon_search">
-                <input class="text-field__input" type="text" name="search" id="search" placeholder="Введите адрес">
-                <button class="btn_search" type="submit">Поиск</button>
+    <div class="top-menu">
+        <button class="menu__btn"></button>
+        <span class="name-project">
+            Визуализация карт доступности финансовых услуг
+        </span>
+        <form id="search_address" name="search_form">
+            <div class="search-box">
+                <input type="text" name="" class="search-txt" placeholder="Поиск"/>
+              </div>
+        </form>
+        <div class="sidenav">
+            <a href="#" class="logo">
+                <img class = 'logo-cbr' src="img/10andmore.png" alt="logo">
+            </a>
+            <div class="sidenav__header">
+                <span class="name_list">Фильтры</span>
+                <div class="filter_container"></div>
+    
+                <!-- Здесь рендеринг массива filtersList -->
+            </div>
+            <div class="sidenav__body">
+                <span class="name_list">Федеральные округа</span>
+                <nav class="menu_body">
+                    <ul class="menu__body_list">
+                        <!-- Здесь рендеринг массива regions -->
+                    </ul>
+                </nav>
             </div>
         </div>
-    </form> -->
+    </div>
+
 
 </body>
 </html>
