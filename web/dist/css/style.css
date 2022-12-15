@@ -20,6 +20,7 @@ html, body, #kd-map {
   height: 100%;
   padding: 0;
   margin: 0;
+  top: 56px
 }
 
 .top-menu {
@@ -239,53 +240,11 @@ html, body, #kd-map {
   background-color:#afefff;
 }
 
-/* Фильтр */
-
-#search_address {
-  display: flex;
-  transform: translate(-1%, -76%);
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-content: center;
+.ymaps-2-1-79-controls__control_toolbar {
+  display: none !important;
 }
 
-.search-txt {
-  border: 1px solid #dddfe0;
-  outline: none;
-  border-radius: 35px;
-  transition: all .3s;
-  width: 200px;
-}
-
-.search-txt:hover {
-  /* width: 100px; */
-  /* height: 6px; */
-  }
-
-.search-btn {
-  height: 5px;
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  transition: all .1s;
-  transition-delay: .1s;
-}
-
-.search-btn:hover {
-  cursor: pointer;
-}
-
-.search-txt:hover + .button {
-  /* height: 2.5rem;
-  top: 1.8rem;
-  right: 0; */
-  }
-  .search-txt::placeholder {
-  opacity: .3;
-  }
-  
-
+/* Под разрешения экранов */
 @media screen and (max-width: 1280px) {
   .sidenav {
     display: block;
@@ -333,8 +292,8 @@ html, body, #kd-map {
     display: block;
     position: fixed;
     visibility: hidden;
-    top: 0;
-    left: -100%; 
+    left: 0;
+    top: -100%; 
     margin: 0;
     padding: 40px 0;
     list-style: none;
@@ -348,59 +307,26 @@ html, body, #kd-map {
     transition-duration: .3s;
   }
 
-  #search_address {
-    display: flex;
-    transform: translate(-1%, -76%);
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-content: center;
+  .name-project {
+    font-size: 15px;
+    padding: 21px 15px 0 0;
   }
-  
-  .search-box {
-    background: #eef3f8;
-    border-radius: 40px;
-    }
-  
-    .search-box:hover > .search-txt {
-      width: 240px;
-      padding: 0 6px;
-    }
-  
-    .search-box:hover > .search-btn {
-      background: #afefff;
-    }
-  
-    .search-btn {
-      color: #eeeeee;
-      float: right;
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      background: #989b9f;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      transition: 0.4s;
-      color: rgb(0, 0, 0);
-      cursor: pointer;
-      text-decoration:none;
-    }
-    
-    .search-btn > i {
-      font-size: 20px;
-    }
-    .search-txt {
-      border: none;
-      background: none;
-      outline: none;
-      float: left;
-      padding: 0;
-      color: rgb(0, 0, 0);
-      font-size: 16px;
-      transition: 0.4s;
-      line-height: 40px;
-      width: 0px;
-      font-weight: bold;
-    }
+}
+
+@media screen and (max-width: 460px) {
+  .name-project {
+    justify-content: end;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .name-project {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .name-project {
+    padding: 21px 5px 0 0;
+  }
 }

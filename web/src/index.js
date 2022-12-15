@@ -28,13 +28,14 @@ function init () {
     myMap.controls.remove('geolocationControl');
     myMap.controls.remove('zoomControl')
     myMap.controls.remove('fullscreenControl')
+    myMap.controls.remove('listbox')
     myMap.geoObjects.add(objectManager);
 
-    var zoomControl = new ymaps.control.ZoomControl({
+    let zoomControl = new ymaps.control.ZoomControl({
         options: {
             size: "small",
             position: {
-                right: 20,
+                right: 25,
                 bottom: 250
             }
         }
@@ -383,6 +384,7 @@ function init () {
     .test(navigator.userAgent)) {
         objectManager.options.set({balloonPanelMaxMapArea:'Infinity'})
         myMap.options.set({balloonPanelMaxMapArea:'Infinity'})
+
     } else {
         
     }
