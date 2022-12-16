@@ -2,8 +2,8 @@ ymaps.ready(init);
 
 function init () {
     var myMap = new ymaps.Map('kd-map', {
-            center: [57.371976468912315,61.395945886505494],
-            zoom: 10
+            center: [54.435152, 56.959736],
+            zoom: 7
         }, {
             searchControlProvider: 'yandex#search'
         }),
@@ -180,8 +180,8 @@ function init () {
     const filtersList = {
         'Офис банка (в т.ч. передвижной пункт)': true,
         'Удаленная точка банк. обслуживания': true,
-        'Банкомат (с использованием банк. карт)': true,
-        'Банкомат (без использования банк. карт)': true,
+        'Банкомат для операций с банк. картами, наличными и совершения безналичных платежей': true,
+        'Банкомат для операций с наличными': true,
         'Банковские услуги в отделениях Почты России': true,
         'Точка выдачи наличных в магазине': true,
         'Точка оплаты наличными': true,
@@ -209,13 +209,13 @@ function init () {
             border1.style.cssText = 'top: 13px; transform: rotate(-45deg);'
             border2.style.cssText = 'transform: rotate(45deg);'
             border3.style.cssText = 'top: 13px; transform: rotate(45deg);'
-            sidenav.style.cssText = 'visibility: visible; top: 0'
+            sidenav.style.cssText = 'visibility: visible; top: 0; left: 0;'
         }
         else {
             border1.style.cssText = 'top: 4px; transform: none;'
             border2.style.cssText = 'transform: none;'
             border3.style.cssText = 'top: 22px; transform: none;'
-            sidenav.style.cssText = 'visibility: hidden; -100%;'
+            sidenav.style.cssText = 'visibility: hidden; top: -100%;'
         }
     } // функция со сценарием изменения значения menuOpen
 
@@ -262,16 +262,15 @@ function init () {
 
                 let icon = document.createElement('span')
                 icon.classList.add('icon')
-                if (key == 'Офис банка (в т.ч. передвижной пункт)')
-                key == 'Офис банка (в т.ч. передвижной пункт)' ? icon.style.cssText = 'border: 7px solid rgb(238 67 68);' : null
-                key == 'Удаленная точка банк. обслуживания' ? icon.style.cssText = 'border: 7px solid rgb(238 67 68);' : null;
-                key == 'Банкомат (с использованием банк. карт)' ? icon.style.cssText = 'border: 7px solid rgb(82 221 81);' : null;
-                key == 'Банкомат (без использования банк. карт)' ? icon.style.cssText = 'border: 7px solid rgb(21 149 251);' : null;
-                key == 'Банковские услуги в отделениях Почты России' ? icon.style.cssText = 'border: 7px solid rgb(21 149 251);' : null;
-                key == 'Точка выдачи наличных в магазине' ? icon.style.cssText = 'border: 7px solid rgb(255 148 47);' : null;
-                key == 'Точка оплаты наличными' ? icon.style.cssText = 'border: 7px solid rgb(11 70 119);' : null;
-                key == 'Микрофинансовая организация' ? icon.style.cssText = 'border: 7px solid rgb(239 126 234);' : null;
-                key == 'Страховая организация' ? icon.style.cssText = 'border: 7px solid rgb(21 149 251);' : null;
+                key == 'Офис банка (в т.ч. передвижной пункт)' ? icon.style.cssText = 'border: 7px solid rgb(11 70 119);' : null
+                key == 'Удаленная точка банк. обслуживания' ? icon.style.cssText = 'border: 7px solid rgb(89 89 89);' : null;
+                key == 'Банкомат для операций с банк. картами, наличными и совершения безналичных платежей' ? icon.style.cssText = 'border: 7px solid rgb(17 175 40);' : null;
+                key == 'Банкомат для операций с наличными' ? icon.style.cssText = 'border: 7px solid rgb(82 221 81);' : null;
+                key == 'Банковские услуги в отделениях Почты России' ? icon.style.cssText = 'border: 7px solid rgb(16 121 198);' : null;
+                key == 'Точка выдачи наличных в магазине' ? icon.style.cssText = 'border: 7px solid rgb(238 67 68);' : null;
+                key == 'Точка оплаты наличными' ? icon.style.cssText = 'border: 7px solid rgb(151 162 36);' : null;
+                key == 'Микрофинансовая организация' ? icon.style.cssText = 'border: 7px solid rgb(244 109 206);' : null;
+                key == 'Страховая организация' ? icon.style.cssText = 'border: 7px solid rgb(231 118 39);' : null;
 
                 link.append(icon)
                 // отрисовка списка фильтров по ключу объекта filtersList
@@ -372,10 +371,8 @@ function init () {
         myMap.balloon.close()
     }); // закрытие баллуннов по клику по карте
 
-    console.log(objectManager.objects.balloon);
-
     $.ajax({
-        url: "rezh.json"
+        url: "full_80.json"
     }).done(function(data) {
         objectManager.add(data);
     }); // сгенерированный из xls посредством Пайтона в json в objectManager
@@ -388,18 +385,4 @@ function init () {
     } else {
         
     }
-
-
-    // menuItems.forEach((item) => {
-    //     item.addEventListener('click', (e) => {
-    //         e.preventDefault()
-
-    //         if (item.className === 'menu__link') {
-    //             item.classList.add('active')
-    //         }
-    //         else {
-    //             item.classList.remove('active')
-    //         }
-    //     })
-    // })
 }
