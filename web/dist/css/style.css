@@ -282,5 +282,6 @@ html, body, #kd-map {
 @media screen and (max-width: 385px) {
   .name-project {
     padding: 21px 5px 0 0;
+    justify-content: center;
   }
 }
