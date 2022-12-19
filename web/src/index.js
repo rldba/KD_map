@@ -42,13 +42,16 @@ function init () {
     });
     myMap.controls.add(zoomControl); // кнопки зумма
 
+    document.addEventListener("load", () => {
+        alert("DOM готов!");
+    })
 
     let regions = [{
         id: 1,
-        name: 'Уральский',
+        name: 'Уральское ГУ',
         oblast: [
-            'Республика Башкортостан',
-            'Свердловская область',
+            'Уральское главное управление',
+            'Отделение-НБ Республика Башкортостан',
         ]
     }]
 
@@ -217,7 +220,7 @@ function init () {
 
     drop.forEach((item) => {
         item.addEventListener('click', (e) => {
-            if (item.textContent == 'Республика Башкортостан') {
+            if (item.textContent == 'Отделение-НБ Республика Башкортостан') {
                 myMap.setCenter([
                     54.735152, 55.958736], 10, {
                         checkZoomRange: true,
@@ -230,22 +233,6 @@ function init () {
                         duration: 200
                     })                
             }
-
-
-
-    // drop.forEach((item) => {
-    //     item.addEventListener('click', (e) => {
-    //         item.textContent == 'Республика Башкортостан' ? 
-    //         myMap.panTo([
-    //             54.435152, 56.959736], {
-    //                 delay: 1500,
-    //             }
-    //         ) :
-    //         myMap.panTo([
-    //             56.838011, 60.597474], {
-    //                 delay: 1500
-    //             }
-    //         ); // колхоз
             menuOpen = false
             menuSwitch()
         })
@@ -276,6 +263,9 @@ function init () {
         objectManager.add(data);
     }); // сгенерированный из xls посредством Пайтона в json в objectManager
 
+    const p2 = Promise.resolve(3)
+    console.log(p2) // Promise <resolved>: 3
+
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i
     .test(navigator.userAgent)) {
         objectManager.options.set({balloonPanelMaxMapArea:'Infinity'})
@@ -283,11 +273,9 @@ function init () {
 
         if (window.outerWidth < 380) {
             let name = document.querySelector('.name-project')
-            name.innerHTML = `Визуализация карт доступности <br>финансовых услуг</br>`
+            name.innerHTML = `Карта доступности <br>финансовых услуг</br>`
             name.style.cssText = 'padding: 14px 5px 0 0;'
         }
 
-    } else {
-        
     }
 }

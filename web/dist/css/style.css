@@ -172,6 +172,7 @@ html, body, #kd-map {
 }
 
 .menu_regions_title {
+  background-color:rgb(255, 255, 255);
   cursor: pointer;
   border-bottom: 1.5px solid #dddfe0;
   display: flex;
@@ -179,11 +180,6 @@ html, body, #kd-map {
   padding: 12px 19px;
   font-size: 18px;
   transition: all .3s;
-}
-
-.menu_regions_title:hover {
-  /* background-color:#00BBEE; */
-  background: #afefff;
 }
 
 .active {
@@ -281,7 +277,7 @@ html, body, #kd-map {
 
 @media screen and (max-width: 385px) {
   .name-project {
-    padding: 21px 5px 0 0;
+    padding: 21px 0 0 0;
     justify-content: center;
   }
 }
