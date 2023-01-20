@@ -42,18 +42,31 @@ function init () {
     });
     myMap.controls.add(zoomControl); // кнопки зумма
 
-    document.addEventListener("load", () => {
-        alert("DOM готов!");
-    })
-
     let regions = [{
         id: 1,
         name: 'Уральское ГУ',
         oblast: [
-            'Уральское главное управление',
-            'Отделение-НБ Республика Башкортостан',
+            {
+                id: 343,
+                name: 'Уральское главное управление',
+                locate: '56.838011, 60.597474',
+            },
+            {
+                id: 3472,
+                name: 'Отделение-НБ Республика Башкортостан',
+                locate: '54.735152, 55.958736',
+            },
         ]
-    }]
+        // oblast: [
+        //     'Уральское главное управление',
+        //     'Отделение-НБ Республика Башкортостан',
+        // ]
+    },
+    {
+        id: 2,
+        name: 'Центральное'
+    }
+]
 
     const filtersList = {
         'Офис банка (в т.ч. передвижной пункт)': true,
@@ -192,6 +205,8 @@ function init () {
         let list = document.createElement('li')
         list.classList.add('title_region_menu')
         menu.append(list)
+
+        console.log(item.name);
 
         let listLink = document.createElement('a')
         listLink.classList.add('menu_regions_title')
