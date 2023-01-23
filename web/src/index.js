@@ -87,15 +87,16 @@ function init () {
     const nameList = document.querySelector('.name_list')
     const sidenavHeader = document.querySelector('.filter_container') // переменные
 
-    const border1 = document.createElement('span')
-    border1.classList.add('border1')
-    const border2 = document.createElement('span')
-    border2.classList.add('border2')
-    const border3 = document.createElement('span')
-    border3.classList.add('border3')
-    menuBtn.append(border1, border2, border3) // отрисовка кнопки меню
+    menuBtn.innerHTML = `
+    <span class='border1'></span>
+    <span class='border2'></span>
+    <span class='border3'></span> 
+    ` // верстка линий кнопки меню
 
     const menuSwitch = () => {
+        const border1 = document.querySelector('.border1')
+        const border2 = document.querySelector('.border2')
+        const border3 = document.querySelector('.border3')
         if (menuOpen == true) {
             border1.style.cssText = 'top: 13px; transform: rotate(-45deg);'
             border2.style.cssText = 'transform: rotate(45deg);'
@@ -121,7 +122,7 @@ function init () {
         objectManager.objects.balloon.close();
     }) // изменение переменной menuOpen вследствии клика по кнопке меню
 
-    let triangle = document.createElement('span')
+    const triangle = document.createElement('span')
     triangle.classList.add('triangle')
     nameList.append(triangle)
 
