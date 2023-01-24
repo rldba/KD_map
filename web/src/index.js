@@ -64,7 +64,14 @@ function init () {
     },
     {
         id: 2,
-        name: 'Центральное'
+        name: 'Центральное',
+        oblast: [
+            {
+                id: 777,
+                name: 'Москва',
+                locate: '56.838011, 60.597474',
+            },
+        ]
     }
 ]
 
@@ -130,30 +137,27 @@ function init () {
         triangleOpen == true ? triangle.style.cssText = 'bottom: 5px; transform: rotate(180deg);' : triangle.style.cssText = 'transform: none'
     }
 
+    const nav = sidenavHeader.innerHTML = `
+    <nav class='menu_header'>
+        <ul class='menu__list'>
+            <li class='menu__item'></li>
+        </ul>
+    </nav>` //верстка перечня фильтров
+
     const dropFilters = () => {
         if (triangleOpen == true) {
             for (let key in filtersList) {
-                // перебор объекта filtersList
         
-                let nav = document.createElement('nav')
-                nav.classList.add('menu_header')
-                sidenavHeader.append(nav)
-        
-                let list = document.createElement('ul')
-                list.classList.add('menu__list')
-                nav.append(list)
-        
-                let listItem = document.createElement('li')
-                listItem.classList.add('menu__item')
-                list.append(listItem)
-        
-                let link = document.createElement('a')
+                const menuItem = document.querySelector('.menu__item')
+
+                const link = document.createElement('a')
                 link.classList.add('menu__link')
                 link.textContent = `${key}`
-                listItem.append(link)
+                menuItem.append(link)
 
-                let icon = document.createElement('span')
+                const icon = document.createElement('span')
                 icon.classList.add('icon')
+
                 key == 'Офис банка (в т.ч. передвижной пункт)' ? icon.style.cssText = 'border: 7px solid rgb(11 70 119);' : null
                 key == 'Удаленная точка банк. обслуживания' ? icon.style.cssText = 'border: 7px solid rgb(89 89 89);' : null;
                 key == 'Банкомат для операций с банк. картами, наличными и совершения безналичных платежей' ? icon.style.cssText = 'border: 7px solid rgb(17 175 40);' : null;
@@ -164,8 +168,7 @@ function init () {
                 key == 'Микрофинансовая организация' ? icon.style.cssText = 'border: 7px solid rgb(244 109 206);' : null;
                 key == 'Страховая организация' ? icon.style.cssText = 'border: 7px solid rgb(231 118 39);' : null;
 
-                link.append(icon)
-                // отрисовка списка фильтров по ключу объекта filtersList
+                link.append(icon) // отрисовка списка фильтров по ключу объекта filtersList
         
                 filtersList[key] == true ? link.classList.add('active') : link.classList.remove('active') // активность кнопки в зависимости от состояния фильтра
         
@@ -180,14 +183,14 @@ function init () {
                     function getFilterFunction(categories) {
                         return function (obj) {
                             let content = obj.properties.typeObject;
-                            return categories[content] 
+                            return categories[content]
                         }
                     }
                 })
             }
         }
         else {
-            let remove = document.querySelectorAll('.menu_header')
+            let remove = document.querySelectorAll('.menu__link')
             remove.forEach((item) => {
                 item.remove()
             })
@@ -207,8 +210,6 @@ function init () {
         list.classList.add('title_region_menu')
         menu.append(list)
 
-        console.log(item.name);
-
         let listLink = document.createElement('a')
         listLink.classList.add('menu_regions_title')
         listLink.textContent = `${item.name}`
@@ -217,18 +218,25 @@ function init () {
         let container = document.createElement('ul')
         container.classList.add('dropdown-container')
         list.append(container)
+    })
+
+        const obl = regions.find(x => x.id == 1).oblast // поиск в массиве regions объекта по id
+        console.log(obl.length)
+        // console.log(regions.leng);
+
+        const container = document.querySelector('.dropdown-container')
         
-        for (let i = 0; i < item.oblast.length; i++) {
+        for (let i = 0; i < regions.length; i++) {
             let list = document.createElement('li')
             list.classList.add('dropdown-list')
             container.append(list)
 
             let link = document.createElement('a')
             link.classList.add('dropdown-link')
-            link.textContent = `${item.oblast[i]}`
+            link.textContent = `${regions.oblast[i].name}`
             list.append(link)
         }
-    }) // рендеринг содержимого массива regions
+     // рендеринг содержимого массива regions
 
     const dropdown = document.querySelectorAll('.menu_regions_title')
     const dropdownLink = document.querySelectorAll('.dropdown-container')
