@@ -18,6 +18,8 @@ function init () {
             // Макет метки кластера pieChart.
             clusterIconLayout: "default#pieChart",
         });
+
+        jsonLoad()
     
     // myMap.behaviors.enable('routeEditor')
     // myMap.behaviors.enable('ruler') Поведения карты (до лучших времен)
@@ -49,18 +51,14 @@ function init () {
             {
                 id: 343,
                 name: 'Уральское главное управление',
-                locate: '56.838011, 60.597474',
+                locate: '56.838011,60.597474',
             },
             {
                 id: 3472,
                 name: 'Отделение-НБ Республика Башкортостан',
-                locate: '54.735152, 55.958736',
+                locate: '54.735152,55.958736',
             },
         ]
-        // oblast: [
-        //     'Уральское главное управление',
-        //     'Отделение-НБ Республика Башкортостан',
-        // ]
     },
     {
         id: 2,
@@ -69,7 +67,7 @@ function init () {
             {
                 id: 777,
                 name: 'Москва',
-                locate: '56.838011, 60.597474',
+                locate: '56.838011,60.597474',
             },
         ]
     }
@@ -203,7 +201,7 @@ function init () {
         dropFilters()
     })
 
-    regions.forEach((item) => {
+    regions.forEach((GU) => {
         const menu = document.querySelector('.menu__body_list')
 
         let list = document.createElement('li')
@@ -212,55 +210,45 @@ function init () {
 
         let listLink = document.createElement('a')
         listLink.classList.add('menu_regions_title')
-        listLink.textContent = `${item.name}`
+        listLink.textContent = `${GU.name}`
         list.append(listLink)
 
         let container = document.createElement('ul')
         container.classList.add('dropdown-container')
         list.append(container)
-    })
 
-        const obl = regions.find(x => x.id == 1).oblast // поиск в массиве regions объекта по id
-        console.log(obl.length)
-        // console.log(regions.leng);
-
-        const container = document.querySelector('.dropdown-container')
-        
-        for (let i = 0; i < regions.length; i++) {
-            let list = document.createElement('li')
-            list.classList.add('dropdown-list')
-            container.append(list)
-
+        GU.oblast.forEach((TU) => {
+            let dropList = document.createElement('li')
+            dropList.classList.add('dropdown-list')
+            container.append(dropList)
+    
             let link = document.createElement('a')
             link.classList.add('dropdown-link')
-            link.textContent = `${regions.oblast[i].name}`
-            list.append(link)
-        }
-     // рендеринг содержимого массива regions
+            link.textContent = `${TU.name}`
+            dropList.append(link)
 
-    const dropdown = document.querySelectorAll('.menu_regions_title')
-    const dropdownLink = document.querySelectorAll('.dropdown-container')
-    const drop = document.querySelectorAll('.dropdown-link') // переменные отрисованные js'ом
+            link.addEventListener('click', (e) => {
+                let separator = TU.locate.indexOf(',')
+                let latitude = parseFloat(TU.locate.slice(0, separator))
+                let longitude = parseFloat(TU.locate.slice(separator + 1))
 
-    drop.forEach((item) => {
-        item.addEventListener('click', (e) => {
-            if (item.textContent == 'Отделение-НБ Республика Башкортостан') {
                 myMap.setCenter([
-                    54.735152, 55.958736], 10, {
+                    latitude, longitude], 10, {
                         checkZoomRange: true,
                         duration: 200
                     })
-            } else {
-                myMap.setCenter([
-                    56.838011, 60.597474], 10, {
-                        checkZoomRange: true,
-                        duration: 200
-                    })                
-            }
-            menuOpen = false
-            menuSwitch()
-        })
-    }) // клик по списку с областями регионов
+
+                    menuOpen = false
+                    menuSwitch()
+                    jsonLoad(TU.locate)
+            })
+        }) // клик по списку с областями регионов
+    }) // рендеринг содержимого массива regions
+
+        const obl = regions.find(x => x.id == 1).oblast // поиск в массиве regions объекта по id (не используется)
+
+    const dropdown = document.querySelectorAll('.menu_regions_title')
+    const dropdownLink = document.querySelectorAll('.dropdown-container') // переменные отрисованные js'ом
 
     dropdown.forEach((item, id) => {
         item.addEventListener('click', (e) => {
@@ -281,11 +269,21 @@ function init () {
         myMap.balloon.close()
     }); // закрытие баллуннов по клику по карте
 
-    $.ajax({
-        url: "full_80.json"
-    }).done(function(data) {
-        objectManager.add(data);
-    }); // сгенерированный из xls посредством Пайтона в json в objectManager
+    function jsonLoad(locate) {
+        let adress = '54.435152, 56.959736'
+        if (locate == '56.838011,60.597474') {
+            adress = "full_65.json"
+        }
+        else {
+            adress = "full_80.json"
+        }
+        $.ajax({
+            url: adress
+        }).done(function(data) {
+            objectManager.add(data);
+        }); // сгенерированный из xls посредством Пайтона в json в objectManager
+    }
+
 
     const p2 = Promise.resolve(3)
     console.log(p2) // Promise <resolved>: 3
