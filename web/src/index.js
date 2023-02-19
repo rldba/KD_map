@@ -60,18 +60,18 @@ function init () {
             },
         ]
     },
-    {
-        id: 2,
-        name: 'Центральное',
-        oblast: [
-            {
-                id: 777,
-                name: 'Москва',
-                locate: '56.838011,60.597474',
-            },
-        ]
-    }
-]
+    // {
+    //     id: 2,
+    //     name: 'Центральное',
+    //     oblast: [
+    //         {
+    //             id: 777,
+    //             name: 'Москва',
+    //             locate: '56.838011,60.597474',
+    //         },
+    //     ]
+    // }
+    ]
 
     const filtersList = {
         'Офис банка (в т.ч. передвижной пункт)': true,
@@ -238,9 +238,9 @@ function init () {
                         duration: 200
                     })
 
+                    setTimeout(jsonLoad, 450, TU.locate)
                     menuOpen = false
                     menuSwitch()
-                    jsonLoad(TU.locate)
             })
         }) // клик по списку с областями регионов
     }) // рендеринг содержимого массива regions
@@ -280,10 +280,10 @@ function init () {
         $.ajax({
             url: adress
         }).done(function(data) {
+            objectManager.removeAll()
             objectManager.add(data);
         }); // сгенерированный из xls посредством Пайтона в json в objectManager
     }
-
 
     const p2 = Promise.resolve(3)
     console.log(p2) // Promise <resolved>: 3
