@@ -1,12 +1,35 @@
 ymaps.ready(init);
 
 function init () {
+    // var geolocation = ymaps.geolocation
     var myMap = new ymaps.Map('kd-map', {
             center: [54.435152, 56.959736],
             zoom: 7
         }, {
             searchControlProvider: 'yandex#search'
-        }),
+        })
+
+        // geolocation.get({
+        //     provider: 'yandex',
+        //     mapStateAutoApply: true
+        // }).then(function (result) {
+        //     // Красным цветом пометим положение, вычисленное через ip.
+        //     result.geoObjects.options.set('preset', 'islands#redCircleIcon');
+        //     result.geoObjects.get(0).properties.set({
+        //         balloonContentBody: 'Мое местоположение'
+        //     });
+        //     myMap.geoObjects.add(result.geoObjects);
+        // });
+    
+        // geolocation.get({
+        //     provider: 'browser',
+        //     mapStateAutoApply: true
+        // }).then(function (result) {
+        //     // Синим цветом пометим положение, полученное через браузер.
+        //     // Если браузер не поддерживает эту функциональность, метка не будет добавлена на карту.
+        //     result.geoObjects.options.set('preset', 'islands#blueCircleIcon');
+        //     myMap.geoObjects.add(result.geoObjects);
+        // });
 
         objectManager = new ymaps.ObjectManager({
             // Чтобы метки начали кластеризоваться, выставляем опцию.
@@ -30,8 +53,18 @@ function init () {
     myMap.controls.remove('geolocationControl');
     myMap.controls.remove('zoomControl')
     myMap.controls.remove('fullscreenControl')
-    myMap.controls.remove('listbox')
+    myMap.controls.remove('listBox')
     myMap.geoObjects.add(objectManager);
+
+    let geolocatorControl = new ymaps.control.GeolocationControl({
+        options: {
+            position: {
+                right: 25,
+                bottom: 350
+            }
+        }
+    })
+    myMap.controls.add(geolocatorControl)
 
     let zoomControl = new ymaps.control.ZoomControl({
         options: {
