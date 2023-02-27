@@ -44,6 +44,21 @@ html, body, #kd-map {
   margin-top: 10px;
 }
 
+.geoBtn {
+  align-items: center;  /* центрируем содержимое кнопки */
+  position: fixed;
+  bottom: 300px;
+  right: 20px;
+  width: 27px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+  border: none;
+  background: red;
+  border-radius: 5px;
+  margin: 5px;
+}
+
 .menu__btn {
   /* display: flex; */
   align-items: center;  /* центрируем содержимое кнопки */

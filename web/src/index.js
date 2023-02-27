@@ -1,6 +1,7 @@
 ymaps.ready(init);
 
 function init () {
+    var geolocation = ymaps.geolocation
     var myMap = new ymaps.Map('kd-map', {
             center: [54.435152, 56.959736],
             zoom: 7
@@ -17,9 +18,17 @@ function init () {
             clusterHideIconOnBalloonOpen: false,
             // Макет метки кластера pieChart.
             clusterIconLayout: "default#pieChart",
+            controls: ['geolocationControl'],
         });
 
         jsonLoad()
+
+        const geolocator = myMap.controls.get('geolocationControl')
+        console.log(geolocator.get('options'));
+
+        const geo = document.createElement('button')
+        geo.classList.add('geoBtn')
+        document.querySelector('#kd-map').append(geo)
     
     // myMap.behaviors.enable('routeEditor')
     // myMap.behaviors.enable('ruler') Поведения карты (до лучших времен)
@@ -27,21 +36,43 @@ function init () {
     myMap.controls.remove('trafficControl'); // удаляем контроль трафика
     myMap.controls.remove('rulerControl'); // удаляем контрол правил
     myMap.controls.remove('searchControl'); // удаляем поисковый контрол
-    myMap.controls.remove('geolocationControl');
+    // myMap.controls.remove('geolocationControl');
     myMap.controls.remove('zoomControl')
     myMap.controls.remove('fullscreenControl')
     myMap.controls.remove('listBox')
     myMap.geoObjects.add(objectManager);
 
-    let geolocatorControl = new ymaps.control.GeolocationControl({
-        options: {
-            position: {
-                right: 25,
-                bottom: 350
-            }
-        }
-    })
-    myMap.controls.add(geolocatorControl)
+    // console.log();
+    // geolocator.GeolocationControl({
+    //     options: {
+    //         position: {
+    //             right: 25,
+    //             bottom: 350
+    //         }
+    //     }
+    // })
+
+    // let geolocatorControl = new ymaps.control.GeolocationControl({
+    //     options: {
+    //         position: {
+    //             right: 25,
+    //             bottom: 350
+    //         }
+    //     }
+    // })
+    // myMap.controls.add(geolocatorControl)
+
+    // geo.addEventListener('click', (e) => {
+    //     geolocation.get({
+    //         provider: 'browser',
+    //         mapStateAutoApply: true
+    //     }).then(function (result) {
+    //         // Синим цветом пометим положение, полученное через браузер.
+    //         // Если браузер не поддерживает эту функциональность, метка не будет добавлена на карту.
+    //         result.geoObjects.options.set('preset', 'islands#blueCircleIcon');
+    //         myMap.geoObjects.add(result.geoObjects);
+    //     });
+    // })
 
     let zoomControl = new ymaps.control.ZoomControl({
         options: {
