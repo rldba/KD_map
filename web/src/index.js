@@ -18,17 +18,17 @@ function init () {
             clusterHideIconOnBalloonOpen: false,
             // Макет метки кластера pieChart.
             clusterIconLayout: "default#pieChart",
-            controls: ['geolocationControl'],
         });
 
         jsonLoad()
 
-        const geolocator = myMap.controls.get('geolocationControl')
-        console.log(geolocator.get('options'));
-
         const geo = document.createElement('button')
         geo.classList.add('geoBtn')
         document.querySelector('#kd-map').append(geo)
+
+        const findLabel = document.createElement('span')
+        findLabel.classList.add('label')
+        geo.append(findLabel)
     
     // myMap.behaviors.enable('routeEditor')
     // myMap.behaviors.enable('ruler') Поведения карты (до лучших времен)
@@ -41,6 +41,18 @@ function init () {
     myMap.controls.remove('fullscreenControl')
     myMap.controls.remove('listBox')
     myMap.geoObjects.add(objectManager);
+
+    geo.addEventListener('click', (e) => {
+        geolocation.get({
+            provider: 'browser',
+            mapStateAutoApply: true
+        }).then(function (result) {
+            // Синим цветом пометим положение, полученное через браузер.
+            // Если браузер не поддерживает эту функциональность, метка не будет добавлена на карту.
+            result.geoObjects.options.set('preset', 'islands#blueCircleIcon');
+            myMap.geoObjects.add(result.geoObjects);
+        });
+    })
 
     // console.log();
     // geolocator.GeolocationControl({
@@ -61,18 +73,6 @@ function init () {
     //     }
     // })
     // myMap.controls.add(geolocatorControl)
-
-    // geo.addEventListener('click', (e) => {
-    //     geolocation.get({
-    //         provider: 'browser',
-    //         mapStateAutoApply: true
-    //     }).then(function (result) {
-    //         // Синим цветом пометим положение, полученное через браузер.
-    //         // Если браузер не поддерживает эту функциональность, метка не будет добавлена на карту.
-    //         result.geoObjects.options.set('preset', 'islands#blueCircleIcon');
-    //         myMap.geoObjects.add(result.geoObjects);
-    //     });
-    // })
 
     let zoomControl = new ymaps.control.ZoomControl({
         options: {
