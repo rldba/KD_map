@@ -1,13 +1,74 @@
 ymaps.ready(init);
 
 function init () {
-    var geolocation = ymaps.geolocation
+    // var geolocation = ymaps.geolocation
     var myMap = new ymaps.Map('kd-map', {
-            center: [54.435152, 56.959736],
-            zoom: 7
+            center: [54.721094, 55.941875],
+            zoom: 12
         }, {
             searchControlProvider: 'yandex#search'
         })
+
+        counter = 0,
+
+        // Создание макета содержимого балуна.
+        // Макет создается с помощью фабрики макетов с помощью текстового шаблона.
+        BalloonContentLayout = ymaps.templateLayoutFactory.createClass(
+            '<div class="balloon-root ">'+
+                '<a class="close" href="#">&times;</a>'+
+                '<div class="arrow balloon-pin"></div>'+
+                '<div class="balloon-head balloon">$[properties.balloonHeader]</div>'+
+                '<div class="balloon-body balloon">$[properties.balloonContent]</div>'+
+                '<div class="balloon-footer balloon">$[properties.balloonFooter]</div>'+
+            '</div>', {
+            //Формирование макета
+            build: function () {
+                this.constructor.superclass.build.call(this);
+                this._$element = $('.balloon-root', this.getParentElement());
+                this.applyElementOffset();
+                this._$element.find('.close')
+                    .on('click', $.proxy(this.onCloseClick, this));
+            },
+            //удаление макета из DOM
+            clear: function () {
+                this._$element.find('.close')
+                    .off('click');
+                this.constructor.superclass.clear.call(this);
+            },
+            //закрытие балуна
+            onCloseClick: function (e) {
+                e.preventDefault();
+                this.events.fire('userclose');
+            },
+            
+                //Сдвигаем балун, чтобы "хвостик" указывал на точку привязки.
+                applyElementOffset: function () {
+                    this._$element.css({
+                        left: -(this._$element[0].offsetWidth / 2),
+                        top: -(this._$element[0].offsetHeight + this._$element.find('.arrow')[0].offsetHeight)
+                    });
+                },
+            
+        });
+
+    var placemark = new ymaps.Placemark([54.737112, 56.028463], {
+            iconContent: "",
+            balloonHeader: 'Заголовок балуна',
+            balloonContent: 'Контент балуна',
+            balloonFooter: 'Футер балуна'
+        }, {
+            balloonShadow: true,
+            balloonLayout: BalloonContentLayout,
+            // Запретим замену обычного балуна на балун-панель.
+            // Если не указывать эту опцию, на картах маленького размера откроется балун-панель.
+            balloonPanelMaxMapArea: 1
+        });
+
+    myMap.geoObjects.add(placemark);
+
+    myMap.geoObjects.options.set({
+        balloonLayout: BalloonContentLayout, // макет балунов всех объектов карты
+    });
 
         objectManager = new ymaps.ObjectManager({
             // Чтобы метки начали кластеризоваться, выставляем опцию.
@@ -18,17 +79,10 @@ function init () {
             clusterHideIconOnBalloonOpen: false,
             // Макет метки кластера pieChart.
             clusterIconLayout: "default#pieChart",
+            clusterBalloonContentLayout: "cluster#balloonCarousel"
         });
 
         jsonLoad()
-
-        const geo = document.createElement('button')
-        geo.classList.add('geoBtn')
-        document.querySelector('#kd-map').append(geo)
-
-        const findLabel = document.createElement('span')
-        findLabel.classList.add('label')
-        geo.append(findLabel)
     
     // myMap.behaviors.enable('routeEditor')
     // myMap.behaviors.enable('ruler') Поведения карты (до лучших времен)
@@ -36,43 +90,21 @@ function init () {
     myMap.controls.remove('trafficControl'); // удаляем контроль трафика
     myMap.controls.remove('rulerControl'); // удаляем контрол правил
     myMap.controls.remove('searchControl'); // удаляем поисковый контрол
-    // myMap.controls.remove('geolocationControl');
+    myMap.controls.remove('geolocationControl');
     myMap.controls.remove('zoomControl')
     myMap.controls.remove('fullscreenControl')
     myMap.controls.remove('listBox')
     myMap.geoObjects.add(objectManager);
 
-    geo.addEventListener('click', (e) => {
-        geolocation.get({
-            provider: 'browser',
-            mapStateAutoApply: true
-        }).then(function (result) {
-            // Синим цветом пометим положение, полученное через браузер.
-            // Если браузер не поддерживает эту функциональность, метка не будет добавлена на карту.
-            result.geoObjects.options.set('preset', 'islands#blueCircleIcon');
-            myMap.geoObjects.add(result.geoObjects);
-        });
+    let geolocatorControl = new ymaps.control.GeolocationControl({
+        options: {
+            position: {
+                right: 25,
+                bottom: 350
+            }
+        }
     })
-
-    // console.log();
-    // geolocator.GeolocationControl({
-    //     options: {
-    //         position: {
-    //             right: 25,
-    //             bottom: 350
-    //         }
-    //     }
-    // })
-
-    // let geolocatorControl = new ymaps.control.GeolocationControl({
-    //     options: {
-    //         position: {
-    //             right: 25,
-    //             bottom: 350
-    //         }
-    //     }
-    // })
-    // myMap.controls.add(geolocatorControl)
+    myMap.controls.add(geolocatorControl)
 
     let zoomControl = new ymaps.control.ZoomControl({
         options: {
