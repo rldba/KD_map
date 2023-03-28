@@ -66,9 +66,11 @@ function init () {
 
     myMap.geoObjects.add(placemark);
 
-    myMap.geoObjects.options.set({
-        balloonLayout: BalloonContentLayout, // макет балунов всех объектов карты
-    });
+
+
+    // myMap.geoObjects.options.set({
+    //     balloonLayout: BalloonContentLayout, // макет балунов всех объектов карты
+    // });
 
         objectManager = new ymaps.ObjectManager({
             // Чтобы метки начали кластеризоваться, выставляем опцию.
@@ -81,6 +83,8 @@ function init () {
             clusterIconLayout: "default#pieChart",
             clusterBalloonContentLayout: "cluster#balloonCarousel"
         });
+
+        // console.log(objectManager.objects.properties);
 
         jsonLoad()
     
