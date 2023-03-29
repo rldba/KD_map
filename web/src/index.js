@@ -9,62 +9,62 @@ function init () {
             searchControlProvider: 'yandex#search'
         })
 
-        counter = 0,
+    //     counter = 0,
 
-        // Создание макета содержимого балуна.
-        // Макет создается с помощью фабрики макетов с помощью текстового шаблона.
-        BalloonContentLayout = ymaps.templateLayoutFactory.createClass(
-            '<div class="balloon-root ">'+
-                '<a class="close" href="#">&times;</a>'+
-                '<div class="arrow balloon-pin"></div>'+
-                '<div class="balloon-head balloon">$[properties.balloonHeader]</div>'+
-                '<div class="balloon-body balloon">$[properties.balloonContent]</div>'+
-                '<div class="balloon-footer balloon">$[properties.balloonFooter]</div>'+
-            '</div>', {
-            //Формирование макета
-            build: function () {
-                this.constructor.superclass.build.call(this);
-                this._$element = $('.balloon-root', this.getParentElement());
-                this.applyElementOffset();
-                this._$element.find('.close')
-                    .on('click', $.proxy(this.onCloseClick, this));
-            },
-            //удаление макета из DOM
-            clear: function () {
-                this._$element.find('.close')
-                    .off('click');
-                this.constructor.superclass.clear.call(this);
-            },
-            //закрытие балуна
-            onCloseClick: function (e) {
-                e.preventDefault();
-                this.events.fire('userclose');
-            },
+    //     // Создание макета содержимого балуна.
+    //     // Макет создается с помощью фабрики макетов с помощью текстового шаблона.
+    //     BalloonContentLayout = ymaps.templateLayoutFactory.createClass(
+    //         '<div class="balloon-root ">'+
+    //             '<a class="close" href="#">&times;</a>'+
+    //             '<div class="arrow balloon-pin"></div>'+
+    //             '<div class="balloon-head balloon">$[properties.balloonHeader]</div>'+
+    //             '<div class="balloon-body balloon">$[properties.balloonContent]</div>'+
+    //             '<div class="balloon-footer balloon">$[properties.balloonFooter]</div>'+
+    //         '</div>', {
+    //         //Формирование макета
+    //         build: function () {
+    //             this.constructor.superclass.build.call(this);
+    //             this._$element = $('.balloon-root', this.getParentElement());
+    //             this.applyElementOffset();
+    //             this._$element.find('.close')
+    //                 .on('click', $.proxy(this.onCloseClick, this));
+    //         },
+    //         //удаление макета из DOM
+    //         clear: function () {
+    //             this._$element.find('.close')
+    //                 .off('click');
+    //             this.constructor.superclass.clear.call(this);
+    //         },
+    //         //закрытие балуна
+    //         onCloseClick: function (e) {
+    //             e.preventDefault();
+    //             this.events.fire('userclose');
+    //         },
             
-                //Сдвигаем балун, чтобы "хвостик" указывал на точку привязки.
-                applyElementOffset: function () {
-                    this._$element.css({
-                        left: -(this._$element[0].offsetWidth / 2),
-                        top: -(this._$element[0].offsetHeight + this._$element.find('.arrow')[0].offsetHeight)
-                    });
-                },
+    //             //Сдвигаем балун, чтобы "хвостик" указывал на точку привязки.
+    //             applyElementOffset: function () {
+    //                 this._$element.css({
+    //                     left: -(this._$element[0].offsetWidth / 2),
+    //                     top: -(this._$element[0].offsetHeight + this._$element.find('.arrow')[0].offsetHeight)
+    //                 });
+    //             },
             
-        });
+    //     });
 
-    var placemark = new ymaps.Placemark([54.737112, 56.028463], {
-            iconContent: "",
-            balloonHeader: 'Заголовок балуна',
-            balloonContent: 'Контент балуна',
-            balloonFooter: 'Футер балуна'
-        }, {
-            balloonShadow: true,
-            balloonLayout: BalloonContentLayout,
-            // Запретим замену обычного балуна на балун-панель.
-            // Если не указывать эту опцию, на картах маленького размера откроется балун-панель.
-            balloonPanelMaxMapArea: 1
-        });
+    // var placemark = new ymaps.Placemark([54.737112, 56.028463], {
+    //         iconContent: "",
+    //         balloonHeader: 'Заголовок балуна',
+    //         balloonContent: 'Контент балуна',
+    //         balloonFooter: 'Футер балуна'
+    //     }, {
+    //         balloonShadow: true,
+    //         balloonLayout: BalloonContentLayout,
+    //         // Запретим замену обычного балуна на балун-панель.
+    //         // Если не указывать эту опцию, на картах маленького размера откроется балун-панель.
+    //         balloonPanelMaxMapArea: 1
+    //     });
 
-    myMap.geoObjects.add(placemark);
+    // myMap.geoObjects.add(placemark);
 
 
 
@@ -99,6 +99,18 @@ function init () {
     myMap.controls.remove('fullscreenControl')
     myMap.controls.remove('listBox')
     myMap.geoObjects.add(objectManager);
+
+    let searchControl = new ymaps.control.SearchControl({
+        options: {
+            position: {
+                top: 70,
+                right: 25,
+            }
+        },
+        
+    })
+
+    myMap.controls.add(searchControl);
 
     let geolocatorControl = new ymaps.control.GeolocationControl({
         options: {
@@ -154,7 +166,7 @@ function init () {
         'Офис банка (в т.ч. передвижной пункт)': true,
         'Удаленная точка банк. обслуживания': true,
         'Банкомат для операций с банк. картами, наличными и совершения безналичных платежей': true,
-        'Банкомат для операций с наличными': true,
+        'Устройство (банкомат) для операций по приему наличных': true,
         'Банковские услуги в отделениях Почты России': true,
         'Точка выдачи наличных в магазине': true,
         'Точка оплаты наличными': true,
@@ -233,13 +245,13 @@ function init () {
                 const icon = document.createElement('span')
                 icon.classList.add('icon')
 
-                key == 'Офис банка (в т.ч. передвижной пункт)' ? icon.style.cssText = 'border: 7px solid rgb(11 70 119);' : null
+                key == 'Офис банка (в т.ч. передвижной пункт)' ? icon.style.cssText = 'border: 7px solid rgb(181 30 255);' : null
                 key == 'Удаленная точка банк. обслуживания' ? icon.style.cssText = 'border: 7px solid rgb(89 89 89);' : null;
                 key == 'Банкомат для операций с банк. картами, наличными и совершения безналичных платежей' ? icon.style.cssText = 'border: 7px solid rgb(17 175 40);' : null;
-                key == 'Банкомат для операций с наличными' ? icon.style.cssText = 'border: 7px solid rgb(82 221 81);' : null;
+                key == 'Устройство (банкомат) для операций по приему наличных' ? icon.style.cssText = 'border: 7px solid rgb(82 221 81);' : null;
                 key == 'Банковские услуги в отделениях Почты России' ? icon.style.cssText = 'border: 7px solid rgb(16 121 198);' : null;
                 key == 'Точка выдачи наличных в магазине' ? icon.style.cssText = 'border: 7px solid rgb(238 67 68);' : null;
-                key == 'Точка оплаты наличными' ? icon.style.cssText = 'border: 7px solid rgb(151 162 36);' : null;
+                key == 'Точка оплаты наличными' ? icon.style.cssText = 'border: 7px solid rgb(255 210 30);' : null;
                 key == 'Микрофинансовая организация' ? icon.style.cssText = 'border: 7px solid rgb(244 109 206);' : null;
                 key == 'Страховая организация' ? icon.style.cssText = 'border: 7px solid rgb(231 118 39);' : null;
 
