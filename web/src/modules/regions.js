@@ -28,6 +28,21 @@ const regions = function (objectManager, myMap, sidenav, menuOpen, menuBtn) {
                 name: 'Отделение Тюмень',
                 locate: '57.152985, 65.541227',
             },
+            {
+                id: 75,
+                name: 'Отделение Челябинск',
+                locate: '55.159902, 61.402554',
+            },
+            {
+                id: 57,
+                name: 'Отделение Пермь',
+                locate: '58.010455, 56.229443',
+            },
+            {
+                id: 53,
+                name: 'Отделение Оренбург',
+                locate: '51.768205, 55.096964',
+            },
         ]},
         ]
         

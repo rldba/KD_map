@@ -9,6 +9,15 @@ function jsonLoad(objectManager, locate) {
     else if (locate == '57.152985, 65.541227') {
         adress = "full_71.json"
     }
+    else if (locate == '55.159902, 61.402554') {
+        adress = "full_75.json"
+    }
+    else if (locate == '58.010455, 56.229443') {
+        adress = "full_57.json"
+    }
+    else if (locate == '51.768205, 55.096964') {
+        adress = "full_53.json"
+    }
     else {
         adress = "full_80.json"
     }
