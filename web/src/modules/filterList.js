@@ -1,6 +1,6 @@
 const filterList = function (objectManager) {
     const filtersList = {
-        'Офис банка (в т.ч. передвижной пункт)': true,
+        'Офис банка (в т.ч. мобильный офис)': true,
         'Удаленная точка банк. обслуживания': true,
         'Банкомат для операций с банк. картами, наличными и совершения безналичных платежей': true,
         'Устройство (банкомат) для операций по приему наличных': true,
@@ -43,7 +43,7 @@ const filterList = function (objectManager) {
                 const icon = document.createElement('span')
                 icon.classList.add('icon')
     
-                key == 'Офис банка (в т.ч. передвижной пункт)' ? icon.style.cssText = 'border: 7px solid rgb(181 30 255);' : null
+                key == 'Офис банка (в т.ч. мобильный офис)' ? icon.style.cssText = 'border: 7px solid rgb(181 30 255);' : null
                 key == 'Удаленная точка банк. обслуживания' ? icon.style.cssText = 'border: 7px solid rgb(89 89 89);' : null;
                 key == 'Банкомат для операций с банк. картами, наличными и совершения безналичных платежей' ? icon.style.cssText = 'border: 7px solid rgb(17 175 40);' : null;
                 key == 'Устройство (банкомат) для операций по приему наличных' ? icon.style.cssText = 'border: 7px solid rgb(82 221 81);' : null;
